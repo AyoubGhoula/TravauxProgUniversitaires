@@ -1,0 +1,31 @@
+body{
+	background-color: gray;
+	font-family: Arial;
+ }
+ h1{
+	font-family: Verdana;
+	text-align: center;
+	color:blue;
+	text-transform: capitalize;
+ }
+ h3{
+	font-family: Verdana;
+	color:purple;
+	background-color:white;
+	text-transform: uppercase;
+ }
+ #name{
+	text-transform: uppercase;
+ }
+ table{
+	margin-left:2px;
+	word-spacing:4pt;
+	letter-spacing: 3px;
+ }
+ h1,h3{
+	border:double ;
+ }
+ #table2{
+	font-family :serif;
+	background-color:red;
+ }

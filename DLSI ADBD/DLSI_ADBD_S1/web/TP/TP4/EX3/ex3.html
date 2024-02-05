@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ex3</title>
+</head>
+<body>
+	<h1>Formulaire d'inscription</h1>
+	<fieldset>
+		<legend>Inscription</legend>
+		<form>
+			<table>
+				<tr>
+				<td><label for="name">Nom</label></td>
+				<td><input id="name" size="10" required></td>
+				</tr>
+				<tr>
+				<td><label for="prenom">Prenom</label></td>
+				<td><input id="prenom" size="10" required></td>
+				</tr>
+				<tr>
+				<td><label for="cin">CIN</label></td>
+				<td><input id="cin" pattern="[0-9]{8}" title="8 chiffres" required></td>
+				</tr>
+				<tr>
+				<td><label for="sexe">Sexe</label></td>
+				<td>
+					<input type="radio" name="sexe"id="sexe1" value="femme"><label for="sexe1">femme</label>
+					<input type="radio" name="sexe" id="sexe2" value="homme"><label for="sexe2">homme</label>
+				</td>
+				</tr>
+				<tr>
+					<td><label for="date">Date de naissance</label></td>
+					<td><input name="date" type="date"></td>
+				</tr>
+				<tr>
+					<td><label for="age">Age</label></td>
+					<td><input name="age" type="number" min="18" max="25"></td>
+				</tr>
+				<tr>
+					<td><label for="address">Address</label></td>
+					<td><textarea name="address" rows="3" col="5">route de Tunis cité el ons</textarea></td>
+				</tr>
+				<tr>
+					<td><label>Ville</label></td>
+					<td>
+					<select name="ville">
+					<option value="sfax" selected>Sfax</option>
+					<option value="tunis">Tunis</option>
+					<option value="sousse">Sousse</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="email">Email</label></td><td><input name="email" type="mail"></td>
+				</tr>
+				<tr>
+					<td><label for="web">Site Web</label></td><td><input name="web" type="url"></td>
+				</tr>
+				<tr>
+					<td><label for="photo">Ajouter votre photo</label></td>
+					<td><input type="file" name="photo"></td>
+				</tr>
+				<tr>
+					<td><label for="color">Choisissez la couleur<br>de<br> 
+						votre carte d'étudiant</label></td>
+					<td><input type="color" name="color"></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+					<button type="submit">Ajouter</button>
+					<button type="reset">Effacer</button>
+				</td>
+				</tr>
+			</table>	
+		</form>
+	
+	</fieldset>
+	
+</body>
+</html>

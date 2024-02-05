@@ -1,0 +1,44 @@
+Create Table DEPT(
+DEPTNO number(2),
+DNAME char(15) CHECK ((DNAME=UPPER(DNAME)) and
+(DNAME IN ('ACCOUNTING','RESEARCH','SALES','OPERATIONS'))),
+LOC VARCHAR(20),
+CONSTRAINT PK_DEPTNO PRIMARY KEY(DEPTNO)
+);
+ALTER Table DEPT modify LOC VARCHAR2(20) UNIQUE ;
+
+Create Table EMP (
+EMPNO number(4) primary key,
+ENAME char(15),
+Job CHAR (15) Not Null,
+SAL number(6,2) Not Null,
+HIREDATE date Not Null,
+COMM number(6,2),
+DEPTNO number(2) references DEPT(DEPTNO)
+) ;
+
+ALTER Table EMP Add MGR NUMBER(4) ;
+ALTER Table EMP Add Constraint FK_MGR Foreign Key (MGR) REFERENCES EMP(EMPNO);
+
+ALTER Table EMP Add constraint CK_Sal check (SAL>=600) ;
+
+ALTER Table EMP Drop Constraint ck_Sal ;
+
+ALTER Table EMP rename Column Comm to COMMISSION ;
+
+ALTER Table EMP Add LNAME char(15) ;
+
+ALTER Table EMP modify LNAME char(30) ;
+
+ALTER Table EMP Drop (LNAME) ;
+
+CREATE TABLE SALGRADE (
+GRADE number(2) primary key, LOWSAL number (6,2), HIGHSAL number(6,2)
+);
+
+
+SELECT ENAME
+FROM EMP
+WHERE DEPTNO=(SELECT DEPTNO FROM DEPT WHERE DNAME='RESEARCH')
+     AND SAL <= (SELECT HIGHSAL FROM SALGRADE WHERE GRADE = 4)
+     AND SAL >= (SELECT LOWSAL FROM SALGRADE WHERE GRADE = 4) ;

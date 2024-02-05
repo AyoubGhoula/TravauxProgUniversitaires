@@ -1,0 +1,48 @@
+body{
+	width: 860px;
+	background-image: url('images/arriere.png');
+}
+h1{
+	text-decoration: underline;
+	color: blue;
+	background-color: yellow;
+	border: blue solid 1px;
+}
+nav{
+	background-color: orange;
+}
+nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover{
+	color: black;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+article,aside{
+	border: orange solid 2px ;
+	background-color: white;
+}
+section{
+	width: 600px ;
+	float :left ;
+}
+h3,h4{
+	background-color: orange;
+}
+
+footer{
+	float :clear ;
+}
+aside a {
+	color: white;
+	background-color: blue;
+	text-decoration: none;
+}
+article{
+	margin:15px;
+}

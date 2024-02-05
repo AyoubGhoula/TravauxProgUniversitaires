@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les tableaux</title>
+	<meta charset="utf-8">
+   	<style>
+   	 caption{
+   	 	font-size: 1.5em;
+   	 	text-transform: capitalize;
+   	 }
+   	 th,td{
+   	 	padding:10px;
+   	 	text-align: center;
+   	 }
+   	 #mois{
+   	 	font-size: 2em;
+   	 	color:blue;
+   	 }
+   	 tr:nth-child(odd) td:first-child {
+	 background-color: #7E3661;
+	 color: #fff;
+	 }
+	 tr:nth-child(even) td:first-child{
+	 	background-color: #888888;
+	 	color: #fff;
+	 }
+	 tr:nth-child(even) td:last-child{
+	 	background-color: #8870FF;
+	 	color:#fff;
+	 }
+	 th[rowspan]:last-child {
+	  border-right: none;
+	  border-top: none;
+	 }
+
+   	</style>
+</head>
+<body>
+<table cellspacing="0" style="text-align:center;" width="500px">
+	<caption>Planning des taches par équipe</caption>
+	<thead>
+		<tr>
+			<th rowspan="2">Equipes</th>
+			<th colspan="10" id="mois"> Janvier </th>
+            <th rowspan="2"></th>
+		</tr>
+		<tr>
+			<th colspan="2">Lundi</th>
+			<th colspan="2">Mardi</th>
+			<th colspan="2">Mercredi</th>
+			<th colspan="2">Jeudi</th>
+			<th colspan="2">Vendredi</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Equipe1</td>
+			<td colspan="6">Tach1</td>
+			<td colspan="4">Tache2</td>
+			<td rowspan="2">Semaine 1</td>
+		</tr>
+		<tr>
+			<td>Equipe2</td> 
+			<td colspan="5">Tache1</td>
+			<td colspan="5">Tache2</td>
+		</tr>
+		<tr>
+			<td>Equipe1</td>
+			<td colspan="2">Tach3</td>
+			<td colspan="6">Tache4</td>
+			<td colspan="2">Tache5</td>
+			<td rowspan="2">Semaine 2</td>
+		</tr>
+		<tr>
+			<td>Equipe2</td>
+			<td colspan="4">Tache3</td>
+			<td colspan="6">Tache4</td>
+		</tr>
+		
+	</tbody>
+</table>
+</body>
+</html>

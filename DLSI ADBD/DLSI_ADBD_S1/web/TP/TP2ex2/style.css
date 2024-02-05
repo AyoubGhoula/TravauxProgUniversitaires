@@ -1,0 +1,25 @@
+table.auth{ background-image:url(images/lock1.jpg);
+background-repeat:no-repeat;}
+input#login{background-image:url(images/log.gif); padding-left: 0.7cm;height:0.7cm;font-size:14pt;
+background-repeat:no-repeat;border:gray 1px solid;  
+background-color: transparent;}
+input#passw{background-image:url(images/lock.gif);background-repeat:no-repeat;padding-left: 0.7cm;height:0.7cm;font-size:14pt;border:gray 1px solid ;  
+background-color: transparent;}
+.bouton{border:outset 1pt; background-color:transparent;}
+/*partie 2*/
+h1{color:navy}
+body{color:#666666;
+background-color:#EEEEEE;
+font-family:Georgia;
+}
+p{font-family: Verdana; font-size:12pt;text-indent:1cm;}
+p:first-letter{font-size:200%; text-transform:uppercase;font-weight:bolder;}
+
+.titrelivre{text-align:center; 
+text-decoration:underline;
+text-transform:capitalize;
+font-size:30pt; 
+
+}
+h2{background-color:#FFFF99;color:#990000;border:double #990000;}
+form{border:double  #990000 ;padding:0.5cm;}

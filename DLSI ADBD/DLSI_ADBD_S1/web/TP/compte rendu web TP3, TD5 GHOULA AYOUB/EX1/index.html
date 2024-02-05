@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js_index.js"/></script>
+</head>
+<body>
+<table border="1" align="center">
+<caption><b>change les propriétes de l'image</b></caption>
+<tr>
+<td>
+<form id="fo">
+	<input type="checkbox" id="widthcheckbox" >
+	Largeur: <input type="text" id="width" >
+	<br>
+	<input type="checkbox" id="heightcheckbox">
+	Hauteur: <input type="text" id="height" > 
+	<br>
+	Source: <select id="source">
+	<option value="voiture_verte.jpg">voiture verte</option>
+	<option value="voiture_blue.jpg">voiture blue</option>
+	<option value="voiture_rouge.jpg">voiture rouge</option>
+	<option value="voiture_blanc.jpg">voiture blanc</option>
+	</select>
+	<br>
+	<input type="button" value="modifier" onclick="f()"/>
+</form>
+</td>
+<td>
+<img id="image" src="voiture_verte.jpg" width="400px"  >
+</td>
+</tr>
+</table>
+</body>
+</html>
