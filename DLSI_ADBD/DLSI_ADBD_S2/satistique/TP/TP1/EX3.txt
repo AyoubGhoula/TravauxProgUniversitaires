@@ -1,4 +1,4 @@
-Voici le tableau de contingence pour les réponses des étudiants en commerce :
+Le tableau de contingence pour les réponses des étudiants en commerce :
 
 |              | A (Administration)  | C (Comptabilité) | M (Marketing) |
 |--------------|---------------------|------------------|---------------|
@@ -7,7 +7,7 @@ Voici le tableau de contingence pour les réponses des étudiants en commerce :
 
 Pour élaborer le tableau de contingence basé sur les fréquences, nous devons compter le nombre total de réponses pour chaque combinaison genre-spécialité. Ensuite, nous diviserons chaque valeur par le nombre total d'étudiants (40) pour obtenir les fréquences relatives.
 
-Voici le tableau de contingence basé sur les fréquences :
+Le tableau de contingence basé sur les fréquences :
 
 |              | A (Administration) | C (Comptabilité) | M (Marketing)  |
 |--------------|---------------------|------------------|---------------|
