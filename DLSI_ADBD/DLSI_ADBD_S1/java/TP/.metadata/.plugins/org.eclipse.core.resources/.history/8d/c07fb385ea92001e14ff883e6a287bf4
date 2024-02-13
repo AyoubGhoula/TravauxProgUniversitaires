@@ -1,0 +1,19 @@
+package modificateur;
+
+public class Tapis {
+float longueur;
+public float largeur;
+protected float prixMetreCarre;
+public Tapis() {}
+public Tapis (float lon, float lar ,float prix) {
+	longueur=lon;
+	largeur=lar;
+	prixMetreCarre=prix;
+}
+float calculerSurfaceTapis(){
+	return longueur*largeur;
+}
+protected float calculerPrixTapis(float surfaceTapis) {
+	return prixMetreCarre*surfaceTapis;
+}
+}

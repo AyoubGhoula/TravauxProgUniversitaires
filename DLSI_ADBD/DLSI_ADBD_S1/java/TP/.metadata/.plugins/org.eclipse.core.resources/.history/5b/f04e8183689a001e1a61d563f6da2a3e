@@ -1,0 +1,13 @@
+package TEST_TD5;
+
+class Universitaire extends Participant {
+    private String specialite;
+
+    public Universitaire(String nom, String prenom, String affiliation, String specialite) {
+        super(nom, prenom, affiliation);
+        this.specialite = specialite;
+    }
+    public String toString() {
+        return super.toString() +"specialite='" + specialite ;
+    }
+}

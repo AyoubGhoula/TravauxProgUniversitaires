@@ -1,0 +1,12 @@
+package chapiter2;
+
+public class VoitureFille extends Voiture  {
+ void  reparationVoiture() {
+		 System.out.println("voiture fille réparée ");
+	 }
+ public static void main(String [] args) {
+	 VoitureFille vf = new VoitureFille();
+	 
+ }
+	 
+}

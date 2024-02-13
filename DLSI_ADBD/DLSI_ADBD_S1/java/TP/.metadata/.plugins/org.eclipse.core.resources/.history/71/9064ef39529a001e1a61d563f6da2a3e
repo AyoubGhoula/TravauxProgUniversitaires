@@ -1,0 +1,7 @@
+package TD5;
+
+public class TestSéminaire {
+	public static void main(String [] args) {
+		séminaire sem =new séminaire ();
+	}
+}

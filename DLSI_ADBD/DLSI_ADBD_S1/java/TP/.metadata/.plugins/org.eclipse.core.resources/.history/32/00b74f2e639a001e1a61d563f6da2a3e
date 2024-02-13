@@ -1,0 +1,23 @@
+package chapiter2;
+import java.util.Scanner;
+import java.util.Arrays;
+public class Operation {
+public static void main (String []arg) {
+	Scanner s=new Scanner(System.in);
+	System.out.print("donner le nbr des case : ");
+	int n=s.nextInt();
+	String args[]=new String[n];
+	for (int i=0;i<n;i++) {
+		System.out.print("donner t["+i+"]: ");
+		args[i]=s.next();
+	}
+	System.out.println("tableau triee"+Arrays.toString(args));
+	String t[]= args.clone();
+	for (int i=0;i<n;i++) {
+		System.out.println(t[i]);
+	}
+	Arrays.sort(t);
+	System.out.println("tableau triee"+Arrays.toString(t));
+	s.close();
+}
+}

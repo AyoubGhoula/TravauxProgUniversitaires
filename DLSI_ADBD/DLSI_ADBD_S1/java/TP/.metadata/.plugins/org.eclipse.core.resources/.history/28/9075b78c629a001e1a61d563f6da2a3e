@@ -1,0 +1,17 @@
+package TD5;
+import java.util.Arrays;
+public class Séminaire {
+ String intitulé ;
+ String période ;
+ String lieu ; 
+ Participant ind[];
+ Participant uni[];
+ public void inscrireParticipant(Participant participant) {
+	 ind.add(participant);
+     }
+ public
+	public String toString() {
+		return "intitulé :"+intitulé+" période: "+période+" lieu :"+lieu;
+	}
+	
+}

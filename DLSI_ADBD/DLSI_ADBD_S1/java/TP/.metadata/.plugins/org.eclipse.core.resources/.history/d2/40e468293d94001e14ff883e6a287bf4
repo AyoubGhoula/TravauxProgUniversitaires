@@ -1,0 +1,7 @@
+package chapiter2;
+
+public class VoitureFille extends Voiture  {
+	 final void  reparationVoiture() {
+		 System.out.println();
+	 }
+}

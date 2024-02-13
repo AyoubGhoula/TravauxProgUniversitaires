@@ -1,0 +1,5 @@
+package chapiter2;
+
+public interface FaireOperation {
+
+}

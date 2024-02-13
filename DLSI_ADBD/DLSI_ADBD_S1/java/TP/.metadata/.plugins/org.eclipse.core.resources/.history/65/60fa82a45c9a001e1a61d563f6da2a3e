@@ -1,0 +1,15 @@
+package TD5;
+
+public class UniversitaireOrder {
+	
+	private String participant1;
+	private String participant2;
+	
+	public UniversitaireOrder(String participant1, String participant2) {
+		   this.participant1 = participant1;
+		   this.participant2 = participant2;
+	}
+	public boolean orderBy() {
+		   System.out.println("Ordonner par fonction pour UniversitaireOrder");
+		   return true;}
+}

@@ -1,0 +1,32 @@
+package TD5;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Operation {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Entrez les éléments du tableau (séparés par des espaces) :");
+        String[] args = scanner.nextLine().split(" ");
+
+        System.out.println("Tableau args avant copie et tri :");
+        afficherTableau(args);
+        String[] t = args.clone();
+
+  
+        Arrays.sort(t);
+
+        // Afficher le tableau t après le tri
+        System.out.println("Tableau t après copie et tri :");
+        afficherTableau(t);
+    }
+
+
+    private static void afficherTableau(String[] tableau) {
+        for (String element : tableau) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+    }
+}
+

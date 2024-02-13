@@ -1,0 +1,8 @@
+package TD5;
+
+public class Industriel extends Participant {
+String fonction ;
+public String toString() {
+	return "fonction :"+fonction;
+}
+}

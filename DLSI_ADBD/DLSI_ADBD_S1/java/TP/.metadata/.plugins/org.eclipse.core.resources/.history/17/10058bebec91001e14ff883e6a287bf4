@@ -1,0 +1,14 @@
+package chapiter2;
+
+public class UseInterface implements FaireOperation {
+	private int x;
+    private int y;
+    private static char z;
+	public boolean testerValeur(char c) {
+		return !(c==0);
+	}
+	public void jouer() {
+		System.out.println("on commence à utiliser les interfaces");
+	}
+	
+}

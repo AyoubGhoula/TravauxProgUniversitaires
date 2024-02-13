@@ -1,0 +1,10 @@
+package TD5;
+public abstract class Participant {
+ String nom;
+ String prénom ;
+ String affiliation ;
+ 
+public String toString() {
+		return "nom :"+nom+" prénom"+prénom+" affiliation"+affiliation;
+	}
+}

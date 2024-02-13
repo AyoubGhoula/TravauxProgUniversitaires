@@ -1,0 +1,8 @@
+package TD5;
+
+public class Séminaire {
+	String intitule;
+	String période ;
+	String lieu ;
+	
+}

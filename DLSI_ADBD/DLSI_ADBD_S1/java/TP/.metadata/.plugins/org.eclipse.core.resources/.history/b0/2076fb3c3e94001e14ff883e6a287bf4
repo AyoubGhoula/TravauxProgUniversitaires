@@ -1,0 +1,19 @@
+package chapiter2;
+import java.util.Scanner ;
+public class VoitureFille extends Voiture  {
+ void  reparationVoiture() {
+		 System.out.println("voiture fille réparée ");
+	 }
+ public static void main(String [] args) {
+	 VoitureFille vf = new VoitureFille();
+	 Scanner s=new Scanner(System.in);
+	 String mat=s.nextLine();
+	 String mar=s.nextLine();
+	 int pui=s.nextInt();
+	 vf.setmarque(mar);
+	 vf.setmatricule(mat);
+	 
+ }
+ 
+	 
+}

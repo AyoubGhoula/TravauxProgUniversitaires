@@ -1,0 +1,17 @@
+package TEST_TD5;
+
+public class Industriel extends Participant {
+	private String fonction;
+
+    public Industriel(String nom, String prenom, String affiliation, String fonction) {
+        super(nom, prenom, affiliation);
+        this.fonction = fonction;
+    }
+
+    @Override
+    public String toString() {
+        return "Industriel{" +
+                "fonction='" + fonction + '\'' +
+                "} " + super.toString();
+    }
+}
