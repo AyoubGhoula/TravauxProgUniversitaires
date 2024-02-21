@@ -38,4 +38,14 @@ print(iris[:3])
 print("12__________________________________________________")
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
 iris_1d = np.genfromtxt(url, delimiter=',', dtype=None)
+species = iris_1d['f4']
+print(species)
+print("13__________________________________________________")
+sepallength = np.genfromtxt(url, delimiter=',', dtype='float', usecols=[0])
+moyenne = np.mean(sepallength)
+median = np.median(sepallength)
+ecart_type = np.std(sepallength)
+print("Moyenne:", moyenne)
+print("Médiane:", median)
+print("Écart-type:", ecart_type)
 

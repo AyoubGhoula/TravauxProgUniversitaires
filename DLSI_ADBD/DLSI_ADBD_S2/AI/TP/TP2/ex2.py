@@ -7,9 +7,6 @@
 # n=input()
 # print("L'anniversaire de "+ n+ " est le "+dic_ani[n])
 
-
-
-
 # with open('json_ex2.json','r') as file:
 #     dic_ani=json.load(file)
 # print("donner nom :")
