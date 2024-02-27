@@ -40,7 +40,7 @@
                 <th>'.$moy_gen."</th></tr>";
         $mention='';
         if ($moy_gen >= 0 && $moy_gen < 10) {
-            $mention = "Insuffisant";
+            $mention = "réfuser";
         } elseif ($moy_gen >= 10 && $moy_gen < 12) {
             $mention = "Passable";
         } elseif ($moy_gen >= 12 && $moy_gen < 14) {
