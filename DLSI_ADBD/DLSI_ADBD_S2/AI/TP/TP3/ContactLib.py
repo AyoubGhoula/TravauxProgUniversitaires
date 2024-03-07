@@ -21,9 +21,6 @@ class  Personne:
         
     def __str__(self):
         return f"{self.nom} {self.prenom} - {self.region()}"
-if __name__=="__main__":
-    Personne1=Personne("ayoub","ghoula","123","gmail","12,sakit_zit,1200,ons")
-    print(Personne1)
 def inf_Personne ():
     nom,pernom,tele,mail,adresse=map(str,input("enter les information de personne avec espace : ").split())
     personne=Personne(nom,pernom,tele,mail,adresse)
@@ -45,6 +42,8 @@ if __name__=="__main__":
     list_personnes=[inf_Personne () for _ in range(n)]
     afiiche(list_personnes)
     sup_personne(list_personnes)
+    afiiche(list_personnes)
+
 
 
 
