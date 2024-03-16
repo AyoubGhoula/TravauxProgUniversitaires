@@ -37,12 +37,12 @@ def sup_personne(list_personnes):
             print("supprime avec secee")
             break
         
-if __name__=="__main__":
-    n=int(input("donner nb de personne : "))
-    list_personnes=[inf_Personne () for _ in range(n)]
-    afiiche(list_personnes)
-    sup_personne(list_personnes)
-    afiiche(list_personnes)
+
+n=int(input("donner nb de personne : "))
+list_personnes=[inf_Personne () for _ in range(n)]
+afiiche(list_personnes)
+sup_personne(list_personnes)
+afiiche(list_personnes)
 
 
 
