@@ -1,0 +1,1 @@
+<h1>Bonjour, {{$request->nom}} {{$request->input('prenom')}}</h1>
