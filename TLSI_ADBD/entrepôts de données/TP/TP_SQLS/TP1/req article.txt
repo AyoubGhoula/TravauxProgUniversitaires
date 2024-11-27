@@ -1,0 +1,8 @@
+SELECT        Article.CArticle, Article.DesArticle, FamilleArticle.DesFamille, Article.PoidsNet, Article.Approvisionnement, Article.Stockable, Article.InterditAchat, Article.InterditVente, 
+                         Article.Actif, dbo.TypeArticle.DesType, dbo.Marque.DesMarque, dbo.SousFamilleArticle.DesSousFamilleArticle, dbo.Article.UniteAchat, dbo.Article.UniteStock, 
+                         dbo.Article.UniteVente
+FROM            dbo.Article LEFT OUTER JOIN
+                         dbo.FamilleArticle ON FamilleArticle.CFamille = Article.CFamille LEFT OUTER JOIN
+                         dbo.TypeArticle ON TypeArticle.CType = Article.CType LEFT OUTER JOIN
+                         dbo.Marque ON Marque.CMarque = Article.CMarque LEFT OUTER JOIN
+                         dbo.SousFamilleArticle ON SousFamilleArticle.CSousFamilleArticle = Article.CSousFamilleArticle
