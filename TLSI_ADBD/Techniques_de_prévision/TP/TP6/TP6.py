@@ -25,10 +25,14 @@ print("#4. Quelle est la prévision des ventes pour le mois numéro 101.")
 t_101=np.mean(a[:101])
 print(t_101)
 
+"""5. Supposons que la prévision se calcule en utilisant seulement la moyenne des trois derniers
+mois. Calculer les prévisions dans une liste en utilisant cette moyenne et ceci du premier
+mois jusqu’au dernier mois."""
 
+forecasts_last3=[]
 for i in range(len(a)):
     if i < 2:
-        avg = np.mean(a[:i+1])  # Moyenne des données disponibles si moins de 3 mois
+        avg = np.mean(a[:i+1]) 
     else:
-        avg = np.mean(a[i-2:i+1])  # Moyenne des trois derniers mois
+        avg = np.mean(a[i-2:i+1]) 
     forecasts_last3.append(avg)
