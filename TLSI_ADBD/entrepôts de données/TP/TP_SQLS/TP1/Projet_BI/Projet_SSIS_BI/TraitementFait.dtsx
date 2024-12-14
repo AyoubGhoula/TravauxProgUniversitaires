@@ -11,10 +11,195 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{D68D8D25-D2A5-4750-8F69-3B218068C782}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{A6B74002-23C5-45FF-8F09-B5A02271764E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{6967F6E9-C026-413B-886F-31EA9C3EB3CF}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\ASUS\Desktop\GitHub\TravauxProgUniversitaires\TLSI_ADBD\entrepôts de données\TP\TP_SQLS\TP1\error_DB_output.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CClient"
+              DTS:DTSID="{AEB8BC44-75E7-4FF9-AF9C-B31B4F66E746}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="135"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DateFacture"
+              DTS:DTSID="{82F2DE72-8386-4FA5-9A33-181B8D0586A5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NFactureClient"
+              DTS:DTSID="{8126E9FC-CAAD-4A6B-9C4F-75E2AD792D1D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CArticle"
+              DTS:DTSID="{7C838010-2F10-4DD8-8A14-732DD8ACFE40}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NLigne"
+              DTS:DTSID="{69D2C689-E974-4EA5-BF1A-6248A0439D32}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PrixUnitaire"
+              DTS:DTSID="{9C040F06-5CAD-4854-86AC-5244DDA1CBF1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CMagacin"
+              DTS:DTSID="{0B562737-A337-4751-A3BF-6213ACA13255}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Quantite"
+              DTS:DTSID="{8D8E6633-33E9-40B0-B0C4-3BDAC1DC0FB9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="37"
+              DTS:DataScale="8"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MontantBrut"
+              DTS:DTSID="{D038CD69-4FA1-4CC5-B6AF-AB1C5CD2F1C1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="38"
+              DTS:DataScale="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MontantRemise"
+              DTS:DTSID="{9964FE15-4ED3-462F-A59F-3667DF0201AB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DateFactureModifiee"
+              DTS:DTSID="{4FE3A1A5-332C-4BBF-A611-B82E21E989A7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PK_Date"
+              DTS:DTSID="{227F5507-7912-4368-86F9-B58DC06475D4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CClientKey"
+              DTS:DTSID="{D2AB8859-1205-49E6-8D06-BF4B2D85DD25}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ActifType2Client"
+              DTS:DTSID="{1BC74721-19EF-4C2D-95D1-FDC899A5B280}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="articleKey"
+              DTS:DTSID="{4AEF1565-62D5-42CE-9F75-37DA6515EA03}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ActifType2Article"
+              DTS:DTSID="{8F977448-12D2-48A1-B89D-EE2E5F8FFAED}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="magasinKey"
+              DTS:DTSID="{753032FF-5D9E-437F-AA9C-D401BDA8794A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{77DC44DD-6B4F-4992-97DD-6953F6B0EE2F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{0387F2F5-63DB-406D-A795-0108B867A9E6}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
@@ -499,23 +684,23 @@ namespace SC_56dddf55099448519c6c58c61936c4fd.Properties {
                       dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
   <msb:PropertyGroup>
-    <msb:Language>msBuild</msb:Language>
     <msb:CodeName>SC_56dddf55099448519c6c58c61936c4fd</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>SC_56dddf55099448519c6c58c61936c4fd</msb:DisplayName>
-    <msb:ProjectId>{D085538E-6102-4F12-8390-CFCF586EDA98}</msb:ProjectId>
+    <msb:ProjectId>{517D2D6C-3483-466E-ADB2-EB95D1B5A4C4}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="SC_56dddf55099448519c6c58c61936c4fd.csproj" />
     <msb:File Include="Properties\Settings.settings" />
     <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
     <msb:File Include="main.cs" />
     <msb:File Include="BufferWrapper.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
     <msb:File Include="ComponentWrapper.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
   </msb:ItemGroup>
 </c:Project>]]></arrayElement>
                     <arrayElement
@@ -570,9 +755,10 @@ using System.Runtime.CompilerServices;
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SC_56dddf55099448519c6c58c61936c4fd</RootNamespace>
     <AssemblyName>SC_56dddf55099448519c6c58c61936c4fd</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -742,14 +928,14 @@ namespace SC_56dddf55099448519c6c58c61936c4fd.Properties {
                     <arrayElement
                       dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAPW8TWcAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAMjIA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAAOpXGcAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAALjIA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAOAxAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAANwxAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAOBIAAAAgAAAAFAAAAAIA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAANBIAAAAgAAAAFAAAAAIA
 AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAU
-MgAAAAAAAEgAAAACAAUAyCEAAGAPAAABAAAAAAAAACgxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAQ
+MgAAAAAAAEgAAAACAAUAyCEAAFwPAAABAAAAAAAAACQxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACioTMAIAHQAAAAEAABEDbwcAAAYt
 FAMDbwYAAAYKEgAoEgAACm8IAAAGKh4CKAwAAAYqKgIDBAUoEwAACipSAnsUAAAKAnsVAAAKFpRv
 FgAACioiAhYoFwAACio6AhcDjA4AAAEoGAAACipaAywIAhcoGQAACipyAQAAcHMaAAAKeh4CKBsA
@@ -758,7 +944,7 @@ FQIFAgMoHwAACg4EcwUAAAZvDgAABipKKwcCA28PAAAGA28KAAAGLfEqBio6AiggAAAKAgN9AwAA
 BCo6AiggAAAKAgN9BAAABCoeAiggAAAKKq5+BQAABC0ectgAAHDQBwAAAighAAAKbyIAAApzIwAA
 CoAFAAAEfgUAAAQqGn4GAAAEKh4CgAYAAAQqGn4HAAAEKh4CKCQAAAoqLnMXAAAGgAcAAAQqAABC
 U0pCAQABAAAAAAAMAAAAdjQuMC4zMDMxOQAAAAAFAGwAAAB4BQAAI34AAOQFAABsBgAAI1N0cmlu
-Z3MAAAAAUAwAAEwBAAAjVVMAnA0AABAAAAAjR1VJRAAAAKwNAAC0AQAAI0Jsb2IAAAAAAAAAAgAA
+Z3MAAAAAUAwAAEwBAAAjVVMAnA0AABAAAAAjR1VJRAAAAKwNAACwAQAAI0Jsb2IAAAAAAAAAAgAA
 AVcVogEJAQAAAPoBMwAWAAABAAAAIAAAAAgAAAAHAAAAGAAAAA8AAAAkAAAAEAAAAAEAAAADAAAA
 BwAAAAgAAAABAAAABAAAAAEAAAAAACcDAQAAAAAABgAhAp4EBgC1Ap4EBgBtAYsEDwASBQAABgCa
 Ad4DBgAEAt4DBgDlAd4DBgCcAt4DBgBBAt4DBgBaAt4DBgCxAd4DBgDMAfACCgB1AqEABgCYAJYD
@@ -779,7 +965,7 @@ AFkAfgQQAGEAfgQQAGkAfgQGAKEAfgQGAMEAfgQVANEAfgQGAJEA0wIGAJEA3gIGAHEAFwEgAHkA
 fgQlAHkAYwQvAHkAWgUzAIEAlQA3AHkAfgM9AHkAjQNCAHkAhQMBANkAfgQQAHkAVQZIAHkAogVI
 AJEAfgQGAOEAiAVMAJEAbgVTAJkAfgQGAPEAeQBZAPEAXQZgAKkAfgRmAMkAfgQGAC4ACwDqAC4A
 EwDzAC4AGwASAS4AIwAbAS4AKwBEAS4AMwBEAS4AOwBEAS4AQwAbAS4ASwBKAS4AUwBEAS4AWwBh
-AUMAYwCvAakAcwASAckAcwASAeEAewCvAeMAawCvARsAAwABAAcABQAIAAcAAADLANIAAAByA9cA
+AUMAYwCrAakAcwASAckAcwASAeEAewCrAeMAawCrARsAAwABAAcABQAIAAcAAADLANIAAAByA9cA
 AABTANIAAABTA9cAAABuBNsAAAD3AOAAAACyBeUAAgAGAAMAAgAHAAUAAQAIAAcAAQAJAAkAAgAT
 AAsAAgAUAA0AAQAVAA0AAgAWAA8ABIAAAAEAAAAAAAAAAAAAAAAAGwAAAAQAAAAAAAAAAAAAAG4A
 EgAAAAAAEAAAAAAAAAAAAAAAdwDoBQAAAAAQAAAAAAAAAAAAAAB3AAUGAAAAAAQAAAAAAAAAAAAA
@@ -818,19 +1004,19 @@ AHIAIABGAGEAbABzAGUALgAgAEEAZgBmAGUAYwB0AGUAegAgAHAAbAB1AHQA9AB0ACAAdQBuAGUA
 IAB2AGEAbABlAHUAcgAgAOAAIABsAGEAIABjAG8AbABvAG4AbgBlAC4AARFFAG4AdAByAOkAZQAg
 ADAAAXFTAEMAXwA1ADYAZABkAGQAZgA1ADUAMAA5ADkANAA0ADgANQAxADkAYwA2AGMANQA4AGMA
 NgAxADkAMwA2AGMANABmAGQALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBl
-AHMAAAAALnSVcS9ruESf3/HvJP1DKwAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQERXQQHARE5BCAA
+AHMAAAAA7KV7sE5SKkm/DZMd+ri3+wAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQERXQQHARE5BCAA
 ETkJIAMBEkEdCBJFAwYSQQMGHQgFIAEROQgEIAECCAUgAgEIHAMgAAIGIAICDhF1BSABHQgIBgAB
 EnkRfQUgABKAgQcgAgEOEoCBCLd6XFYZNOCJCImEXc2AgMyRAwYSFAMGEhgDBhJJAwYSVQMGElkD
 BhIgBSABARIMBSABARE5BCABAQIJIAQBCA4SQRJFBSABARJJBAAAElUEAAASWQUAAQESWQQAABIg
 AwAAAQQoABE5AygAAgQIABJVBAgAElkECAASIAgBAAgAAAAAAB4BAAEAVAIWV3JhcE5vbkV4Y2Vw
 dGlvblRocm93cwEIAQACAAAAAAAoAQAjU0NfNTZkZGRmNTUwOTk0NDg1MTljNmM1OGM2MTkzNmM0
-ZmQAAAUBAAAAABYBABFDb3B5cmlnaHQgQCAgMjAyNAAATQEAHC5ORVRGcmFtZXdvcmssVmVyc2lv
-bj12NC43LjIBAFQOFEZyYW1ld29ya0Rpc3BsYXlOYW1lFC5ORVQgRnJhbWV3b3JrIDQuNy4yBAEA
-AAC0AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29y
-bGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3
-YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAA
-AAAAAFBBRFBBRFC0AAAACDIAAAAAAAAAAAAAIjIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQy
-AAAAAAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACAAEAAAAAAAAAAAAAAA
+ZmQAAAUBAAAAABYBABFDb3B5cmlnaHQgQCAgMjAyNAAASQEAGi5ORVRGcmFtZXdvcmssVmVyc2lv
+bj12NC43AQBUDhRGcmFtZXdvcmtEaXNwbGF5TmFtZRIuTkVUIEZyYW1ld29yayA0LjcEAQAAALQA
+AADOyu++AQAAAJEAAABsU3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNjb3JsaWIs
+IFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1
+NjE5MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAAAAAAAAAA
+UEFEUEFEULQAAAAEMgAAAAAAAAAAAAAeMgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDIAAAAA
+AAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -865,7 +1051,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAANDIAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAMDIAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -941,6 +1127,1492 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       dataType="dbDate"
                       lineageId="Package\F_vente\Composant Script.Outputs[Sortie 0].Columns[DateFactureModifiee]"
                       name="DateFactureModifiee" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\F_vente\Destination de fichier plat"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Destination de fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Destination de fichier plat"
+              localeId="1036"
+              name="Destination de fichier plat"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les données remplaceront ou seront ajoutées au fichier de destination."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Spécifie le texte à enregistrer sur le fichier de destination avant d'enregistrer des données."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="Quand le qualificateur de texte est activé, spécifie si le qualificateur de texte dans les données écrites dans le fichier de destination va être échappé ou non."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\F_vente\Destination de fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat]"
+                  hasSideEffects="true"
+                  name="Entrée de destination de fichier plat">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[CClient]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="CClient"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CClient]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClient]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[DateFacture]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DateFacture"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[DateFacture]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFacture]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[NFactureClient]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="NFactureClient"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[NFactureClient]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NFactureClient]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[CArticle]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CArticle"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CArticle]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CArticle]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[NLigne]"
+                      cachedDataType="i4"
+                      cachedName="NLigne"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[NLigne]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NLigne]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[PrixUnitaire]"
+                      cachedDataType="numeric"
+                      cachedName="PrixUnitaire"
+                      cachedPrecision="18"
+                      cachedScale="5"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[PrixUnitaire]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PrixUnitaire]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[CMagacin]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CMagacin"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CMagacin]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CMagacin]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[Quantite]"
+                      cachedDataType="numeric"
+                      cachedName="Quantite"
+                      cachedPrecision="18"
+                      cachedScale="3"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[Quantite]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[Quantite]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[MontantBrut]"
+                      cachedDataType="numeric"
+                      cachedName="MontantBrut"
+                      cachedPrecision="37"
+                      cachedScale="8"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[MontantBrut]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantBrut]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[MontantRemise]"
+                      cachedDataType="numeric"
+                      cachedName="MontantRemise"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[MontantRemise]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantRemise]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[DateFactureModifiee]"
+                      cachedDataType="dbDate"
+                      cachedName="DateFactureModifiee"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[DateFactureModifiee]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFactureModifiee]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[PK_Date]"
+                      cachedDataType="dbDate"
+                      cachedName="PK_Date"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[PK_Date]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PK_Date]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[CClientKey]"
+                      cachedDataType="i4"
+                      cachedName="CClientKey"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CClientKey]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClientKey]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ActifType2Client]"
+                      cachedDataType="bool"
+                      cachedName="ActifType2Client"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ActifType2Client]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Client]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[articleKey]"
+                      cachedDataType="i4"
+                      cachedName="articleKey"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[articleKey]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[articleKey]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ActifType2Article]"
+                      cachedDataType="bool"
+                      cachedName="ActifType2Article"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ActifType2Article]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Article]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[magasinKey]"
+                      cachedDataType="i4"
+                      cachedName="magasinKey"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[magasinKey]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[magasinKey]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ErrorCode]"
+                      lineageId="Package\F_vente\F_vente_DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\F_vente\F_vente_DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CClient]"
+                      dataType="wstr"
+                      length="10"
+                      name="CClient" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[DateFacture]"
+                      dataType="dbTimeStamp"
+                      name="DateFacture" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[NFactureClient]"
+                      dataType="wstr"
+                      length="20"
+                      name="NFactureClient" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CArticle]"
+                      dataType="wstr"
+                      length="20"
+                      name="CArticle" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[NLigne]"
+                      dataType="i4"
+                      name="NLigne" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[PrixUnitaire]"
+                      dataType="numeric"
+                      name="PrixUnitaire"
+                      precision="18"
+                      scale="5" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CMagacin]"
+                      dataType="wstr"
+                      length="20"
+                      name="CMagacin" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[Quantite]"
+                      dataType="numeric"
+                      name="Quantite"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[MontantBrut]"
+                      dataType="numeric"
+                      name="MontantBrut"
+                      precision="37"
+                      scale="8" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[MontantRemise]"
+                      dataType="numeric"
+                      name="MontantRemise"
+                      precision="38"
+                      scale="6" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[DateFactureModifiee]"
+                      dataType="dbDate"
+                      name="DateFactureModifiee" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[PK_Date]"
+                      dataType="dbDate"
+                      name="PK_Date" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CClientKey]"
+                      dataType="i4"
+                      name="CClientKey" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ActifType2Client]"
+                      dataType="bool"
+                      name="ActifType2Client" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[articleKey]"
+                      dataType="i4"
+                      name="articleKey" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ActifType2Article]"
+                      dataType="bool"
+                      name="ActifType2Article" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[magasinKey]"
+                      dataType="i4"
+                      name="magasinKey" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\F_vente\Fractionnement conditionnel"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Fractionnement conditionnel;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Achemine des lignes de données vers différentes sorties, selon le contexte des données. Utilisez des conditions (expressions SSIS) pour spécifier les lignes qui seront acheminées. Par exemple, séparez les enregistrements qui doivent être nettoyés de ceux qui sont prêts à être chargés ou acheminez uniquement un sous-ensemble d'enregistrements."
+              name="Fractionnement conditionnel"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\F_vente\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]"
+                  description="Entrée vers la transformation de fractionnement conditionnel"
+                  name="Entrée de fractionnement conditionnel">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel].Columns[ActifType2Client]"
+                      cachedDataType="bool"
+                      cachedName="ActifType2Client"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Client]" />
+                    <inputColumn
+                      refId="Package\F_vente\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel].Columns[ActifType2Article]"
+                      cachedDataType="bool"
+                      cachedName="ActifType2Article"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Article]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\F_vente\Fractionnement conditionnel.Outputs[ActifTrue]"
+                  description="Sortie 1 de la transformation de fractionnement conditionnel"
+                  errorOrTruncationOperation="Calcul"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="ActifTrue"
+                  synchronousInputId="Package\F_vente\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Spécifie l'expression. Cette version d'expression utilise les identificateurs de traçabilité à la place des noms de colonnes."
+                      name="Expression">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Client]} ==  TRUE  &amp;&amp; #{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Article]} ==  TRUE </property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Spécifie la version claire de l'expression. Cette version d'expression utilise les noms de colonnes."
+                      expressionType="Notify"
+                      name="FriendlyExpression">ActifType2Client ==  TRUE  &amp;&amp; ActifType2Article ==  TRUE </property>
+                    <property
+                      dataType="System.Int32"
+                      description="Spécifie la position de la condition dans la liste des conditions que la transformation évalue. L'ordre d'évaluation se fait par ordre croissant de valeur."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Fractionnement conditionnel.Outputs[Sortie par défaut de fractionnement conditionnel]"
+                  description="Sortie par défaut de la transformation de fractionnement conditionnel"
+                  exclusionGroup="1"
+                  name="Sortie par défaut de fractionnement conditionnel"
+                  synchronousInputId="Package\F_vente\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel]"
+                  description="Sortie d'erreur de la transformation de fractionnement conditionnel"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de fractionnement conditionnel"
+                  synchronousInputId="Package\F_vente\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\F_vente\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Fractionnement conditionnel.Outputs[Sortie d'erreur de fractionnement conditionnel].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\F_vente\F_vente_DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="F_vente_DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[FVente]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\F_vente\F_vente_DB.Connections[OleDbConnection]"
+                  connectionManagerID="{721CEDE4-4564-4CF7-B093-E9C28FEB1FD0}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-UNN634S_VE_SERVER.Data_Target]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="RedirectRow"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].Columns[NFactureClient]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="NFactureClient"
+                      externalMetadataColumnId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[NFacture]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NFactureClient]" />
+                    <inputColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].Columns[NLigne]"
+                      cachedDataType="i4"
+                      cachedName="NLigne"
+                      externalMetadataColumnId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[NLigne]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NLigne]" />
+                    <inputColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].Columns[Quantite]"
+                      cachedDataType="numeric"
+                      cachedName="Quantite"
+                      cachedPrecision="18"
+                      cachedScale="3"
+                      externalMetadataColumnId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[quantite]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[Quantite]" />
+                    <inputColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].Columns[MontantBrut]"
+                      cachedDataType="numeric"
+                      cachedName="MontantBrut"
+                      cachedPrecision="37"
+                      cachedScale="8"
+                      externalMetadataColumnId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[montantBrut]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantBrut]" />
+                    <inputColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].Columns[MontantRemise]"
+                      cachedDataType="numeric"
+                      cachedName="MontantRemise"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[montantRemise]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantRemise]" />
+                    <inputColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].Columns[DateFactureModifiee]"
+                      cachedDataType="dbDate"
+                      cachedName="DateFactureModifiee"
+                      externalMetadataColumnId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[DateFacture]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFactureModifiee]" />
+                    <inputColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].Columns[CClientKey]"
+                      cachedDataType="i4"
+                      cachedName="CClientKey"
+                      externalMetadataColumnId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ClientKey]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClientKey]" />
+                    <inputColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].Columns[articleKey]"
+                      cachedDataType="i4"
+                      cachedName="articleKey"
+                      externalMetadataColumnId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[articleKey]"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[articleKey]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[articleKey]"
+                      dataType="i4"
+                      name="articleKey" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ClientKey]"
+                      dataType="i4"
+                      name="ClientKey" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[NFacture]"
+                      dataType="wstr"
+                      length="20"
+                      name="NFacture" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[DeviseSocieteKey]"
+                      dataType="i4"
+                      name="DeviseSocieteKey" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ModePapKey]"
+                      dataType="i4"
+                      name="ModePapKey" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[DeviseCltKey]"
+                      dataType="i4"
+                      name="DeviseCltKey" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[NLigne]"
+                      dataType="i4"
+                      name="NLigne" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[DateFacture]"
+                      dataType="dbDate"
+                      name="DateFacture" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[quantite]"
+                      dataType="numeric"
+                      name="quantite"
+                      precision="18"
+                      scale="5" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[montantRemise]"
+                      dataType="numeric"
+                      name="montantRemise"
+                      precision="38"
+                      scale="6" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[montantBrut]"
+                      dataType="numeric"
+                      name="montantBrut"
+                      precision="37"
+                      scale="8" />
+                    <externalMetadataColumn
+                      refId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB].ExternalColumns[poidsNet]"
+                      dataType="numeric"
+                      name="poidsNet"
+                      precision="18"
+                      scale="3" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\F_vente\F_vente_DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\F_vente_DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\F_vente_DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\F_vente\F_vente_DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\F_vente_DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\F_vente\Recherche Article"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
+              description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
+              name="Recherche Article"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Spécifie l'instruction SQL qui génère la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[DArticle]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DArticle]) [refTable]
+where [refTable].[CArticle] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de connexion utilisé pour accéder au dataset de référence."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de cache de la table de correspondance."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie comment la transformation de recherche gère les lignes sans entrées correspondantes dans le jeu de données de référence."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le pourcentage du cache alloué aux lignes sans entrées correspondantes dans le dataset de référence."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 32 bits."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 64 bits."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indique si les métadonnées sont à référencer en format XML."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="articleKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CArticle" dataType="DT_WSTR" length="20" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesArticle" dataType="DT_WSTR" length="100" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesFamille" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesMarque" dataType="DT_WSTR" length="100" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesType" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesSousFamille" dataType="DT_WSTR" length="30" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="poids" dataType="DT_NUMERIC" length="0" precision="18" scale="3" codePage="0"/&gt;&lt;referenceColumn name="approvisionnement" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="UniteStock" dataType="DT_WSTR" length="100" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="UniteVente" dataType="DT_WSTR" length="100" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="UniteAchat" dataType="DT_WSTR" length="100" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ActifType2" dataType="DT_BOOL" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
+                  name="ParameterMap">#{Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CArticle]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Détermine si les clés dupliquées dans les données de référence doivent être traitées en tant qu'erreurs lorsque le mode Cache complet est utilisé."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\F_vente\Recherche Article.Connections[OleDbConnection]"
+                  connectionManagerID="{721CEDE4-4564-4CF7-B093-E9C28FEB1FD0}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-UNN634S_VE_SERVER.Data_Target]"
+                  description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\F_vente\Recherche Article.Inputs[Entrée de recherche]"
+                  name="Entrée de recherche">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche Article.Inputs[Entrée de recherche].Columns[CArticle]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CArticle"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CArticle]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">CArticle</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche avec correspondance]"
+                  errorOrTruncationOperation="Recherche"
+                  exclusionGroup="1"
+                  name="Sortie de recherche avec correspondance"
+                  synchronousInputId="Package\F_vente\Recherche Article.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche avec correspondance].Columns[articleKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      lineageId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche avec correspondance].Columns[articleKey]"
+                      name="articleKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">articleKey</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche avec correspondance].Columns[ActifType2Article]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      lineageId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche avec correspondance].Columns[ActifType2Article]"
+                      name="ActifType2Article"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">ActifType2</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche sans correspondance]"
+                  description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
+                  exclusionGroup="1"
+                  name="Sortie de recherche sans correspondance"
+                  synchronousInputId="Package\F_vente\Recherche Article.Inputs[Entrée de recherche]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche Article.Outputs[Sortie d'erreur de recherche]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de recherche"
+                  synchronousInputId="Package\F_vente\Recherche Article.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Article.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche Article.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Article.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche Article.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\F_vente\Recherche Client"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
+              description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
+              name="Recherche Client"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Spécifie l'instruction SQL qui génère la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[DClients]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DClients]) [refTable]
+where [refTable].[IdClient] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de connexion utilisé pour accéder au dataset de référence."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de cache de la table de correspondance."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie comment la transformation de recherche gère les lignes sans entrées correspondantes dans le jeu de données de référence."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le pourcentage du cache alloué aux lignes sans entrées correspondantes dans le dataset de référence."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 32 bits."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 64 bits."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indique si les métadonnées sont à référencer en format XML."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="CClientKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="IdClient" dataType="DT_WSTR" length="10" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="raisonsocial" dataType="DT_WSTR" length="400" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesFamille" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesPays" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ActifType2" dataType="DT_BOOL" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
+                  name="ParameterMap">#{Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CClient]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Détermine si les clés dupliquées dans les données de référence doivent être traitées en tant qu'erreurs lorsque le mode Cache complet est utilisé."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\F_vente\Recherche Client.Connections[OleDbConnection]"
+                  connectionManagerID="{721CEDE4-4564-4CF7-B093-E9C28FEB1FD0}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-UNN634S_VE_SERVER.Data_Target]"
+                  description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\F_vente\Recherche Client.Inputs[Entrée de recherche]"
+                  name="Entrée de recherche">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche Client.Inputs[Entrée de recherche].Columns[CClient]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="CClient"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CClient]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">IdClient</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche avec correspondance]"
+                  errorOrTruncationOperation="Recherche"
+                  exclusionGroup="1"
+                  name="Sortie de recherche avec correspondance"
+                  synchronousInputId="Package\F_vente\Recherche Client.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche avec correspondance].Columns[CClientKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      lineageId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche avec correspondance].Columns[CClientKey]"
+                      name="CClientKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">CClientKey</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche avec correspondance].Columns[ActifType2Client]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      lineageId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche avec correspondance].Columns[ActifType2Client]"
+                      name="ActifType2Client"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">ActifType2</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche sans correspondance]"
+                  description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
+                  exclusionGroup="1"
+                  name="Sortie de recherche sans correspondance"
+                  synchronousInputId="Package\F_vente\Recherche Client.Inputs[Entrée de recherche]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche Client.Outputs[Sortie d'erreur de recherche]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de recherche"
+                  synchronousInputId="Package\F_vente\Recherche Client.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Client.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche Client.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Client.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche Client.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\F_vente\Recherche Date"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
+              description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
+              name="Recherche Date"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Spécifie l'instruction SQL qui génère la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[Heure]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[Heure]) [refTable]
+where [refTable].[PK_Date] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de connexion utilisé pour accéder au dataset de référence."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de cache de la table de correspondance."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie comment la transformation de recherche gère les lignes sans entrées correspondantes dans le jeu de données de référence."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le pourcentage du cache alloué aux lignes sans entrées correspondantes dans le dataset de référence."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 32 bits."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 64 bits."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indique si les métadonnées sont à référencer en format XML."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="PK_Date" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Année_Nom" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Semestre_Nom" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Trimestre_Nom" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Mois_Nom" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Semaine_Nom" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Jour_De_La_Semaine_Nom" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
+                  name="ParameterMap">#{Package\F_vente\Composant Script.Outputs[Sortie 0].Columns[DateFactureModifiee]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Détermine si les clés dupliquées dans les données de référence doivent être traitées en tant qu'erreurs lorsque le mode Cache complet est utilisé."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\F_vente\Recherche Date.Connections[OleDbConnection]"
+                  connectionManagerID="{721CEDE4-4564-4CF7-B093-E9C28FEB1FD0}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-UNN634S_VE_SERVER.Data_Target]"
+                  description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\F_vente\Recherche Date.Inputs[Entrée de recherche]"
+                  name="Entrée de recherche">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche Date.Inputs[Entrée de recherche].Columns[DateFactureModifiee]"
+                      cachedDataType="dbDate"
+                      cachedName="DateFactureModifiee"
+                      lineageId="Package\F_vente\Composant Script.Outputs[Sortie 0].Columns[DateFactureModifiee]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">PK_Date</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\F_vente\Recherche Date.Outputs[Sortie de recherche avec correspondance]"
+                  errorOrTruncationOperation="Recherche"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Sortie de recherche avec correspondance"
+                  synchronousInputId="Package\F_vente\Recherche Date.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Date.Outputs[Sortie de recherche avec correspondance].Columns[PK_Date]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      lineageId="Package\F_vente\Recherche Date.Outputs[Sortie de recherche avec correspondance].Columns[PK_Date]"
+                      name="PK_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">PK_Date</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche Date.Outputs[Sortie de recherche sans correspondance]"
+                  description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
+                  exclusionGroup="1"
+                  name="Sortie de recherche sans correspondance"
+                  synchronousInputId="Package\F_vente\Recherche Date.Inputs[Entrée de recherche]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche Date.Outputs[Sortie d'erreur de recherche]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de recherche"
+                  synchronousInputId="Package\F_vente\Recherche Date.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Date.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche Date.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Date.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche Date.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\F_vente\Recherche Magasin"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
+              description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
+              name="Recherche Magasin"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Spécifie l'instruction SQL qui génère la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[DMagasin]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DMagasin]) [refTable]
+where [refTable].[CMagasin] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de connexion utilisé pour accéder au dataset de référence."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de cache de la table de correspondance."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie comment la transformation de recherche gère les lignes sans entrées correspondantes dans le jeu de données de référence."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le pourcentage du cache alloué aux lignes sans entrées correspondantes dans le dataset de référence."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 32 bits."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 64 bits."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indique si les métadonnées sont à référencer en format XML."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="magasinKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CMagasin" dataType="DT_WSTR" length="20" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesMagasin" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Conditionnement" dataType="DT_WSTR" length="200" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesEtat" dataType="DT_WSTR" length="100" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DesType" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="nomResponsable" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Actif" dataType="DT_BOOL" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ancienDate" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="nouveauDate" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ActifType2" dataType="DT_BOOL" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
+                  name="ParameterMap">#{Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CMagacin]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Détermine si les clés dupliquées dans les données de référence doivent être traitées en tant qu'erreurs lorsque le mode Cache complet est utilisé."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\F_vente\Recherche Magasin.Connections[OleDbConnection]"
+                  connectionManagerID="{721CEDE4-4564-4CF7-B093-E9C28FEB1FD0}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-UNN634S_VE_SERVER.Data_Target]"
+                  description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\F_vente\Recherche Magasin.Inputs[Entrée de recherche]"
+                  name="Entrée de recherche">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche Magasin.Inputs[Entrée de recherche].Columns[CMagacin]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CMagacin"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CMagacin]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">CMagasin</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\F_vente\Recherche Magasin.Outputs[Sortie de recherche avec correspondance]"
+                  errorOrTruncationOperation="Recherche"
+                  exclusionGroup="1"
+                  name="Sortie de recherche avec correspondance"
+                  synchronousInputId="Package\F_vente\Recherche Magasin.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Magasin.Outputs[Sortie de recherche avec correspondance].Columns[magasinKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      lineageId="Package\F_vente\Recherche Magasin.Outputs[Sortie de recherche avec correspondance].Columns[magasinKey]"
+                      name="magasinKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">magasinKey</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche Magasin.Outputs[Sortie de recherche sans correspondance]"
+                  description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
+                  exclusionGroup="1"
+                  name="Sortie de recherche sans correspondance"
+                  synchronousInputId="Package\F_vente\Recherche Magasin.Inputs[Entrée de recherche]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche Magasin.Outputs[Sortie d'erreur de recherche]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de recherche"
+                  synchronousInputId="Package\F_vente\Recherche Magasin.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Magasin.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche Magasin.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\F_vente\Recherche Magasin.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche Magasin.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\F_vente\Recherche_Fait"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
+              description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
+              name="Recherche_Fait"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Spécifie l'instruction SQL qui génère la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[FVente]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[FVente]) [refTable]
+where [refTable].[NFacture] = ? and [refTable].[NLigne] = ? and [refTable].[quantite] = ? and [refTable].[montantBrut] = ? and [refTable].[montantRemise] = ? and [refTable].[DateFacture] = ? and [refTable].[ClientKey] = ? and [refTable].[articleKey] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de connexion utilisé pour accéder au dataset de référence."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de cache de la table de correspondance."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie comment la transformation de recherche gère les lignes sans entrées correspondantes dans le jeu de données de référence."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le pourcentage du cache alloué aux lignes sans entrées correspondantes dans le dataset de référence."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 32 bits."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 64 bits."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indique si les métadonnées sont à référencer en format XML."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="articleKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ClientKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="NFacture" dataType="DT_WSTR" length="20" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DeviseSocieteKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ModePapKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DeviseCltKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="NLigne" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DateFacture" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="quantite" dataType="DT_NUMERIC" length="0" precision="18" scale="5" codePage="0"/&gt;&lt;referenceColumn name="montantRemise" dataType="DT_NUMERIC" length="0" precision="38" scale="6" codePage="0"/&gt;&lt;referenceColumn name="montantBrut" dataType="DT_NUMERIC" length="0" precision="37" scale="8" codePage="0"/&gt;&lt;referenceColumn name="poidsNet" dataType="DT_NUMERIC" length="0" precision="18" scale="3" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
+                  name="ParameterMap">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NFactureClient]};#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NLigne]};#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[Quantite]};#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantBrut]};#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantRemise]};#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PK_Date]};#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClientKey]};#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[articleKey]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Détermine si les clés dupliquées dans les données de référence doivent être traitées en tant qu'erreurs lorsque le mode Cache complet est utilisé."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\F_vente\Recherche_Fait.Connections[OleDbConnection]"
+                  connectionManagerID="{721CEDE4-4564-4CF7-B093-E9C28FEB1FD0}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-UNN634S_VE_SERVER.Data_Target]"
+                  description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche]"
+                  name="Entrée de recherche">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche].Columns[NFactureClient]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="NFactureClient"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NFactureClient]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">NFacture</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche].Columns[NLigne]"
+                      cachedDataType="i4"
+                      cachedName="NLigne"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NLigne]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">NLigne</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche].Columns[PK_Date]"
+                      cachedDataType="dbDate"
+                      cachedName="PK_Date"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PK_Date]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">DateFacture</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche].Columns[CClientKey]"
+                      cachedDataType="i4"
+                      cachedName="CClientKey"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClientKey]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">ClientKey</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche].Columns[articleKey]"
+                      cachedDataType="i4"
+                      cachedName="articleKey"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[articleKey]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">articleKey</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche].Columns[Quantite]"
+                      cachedDataType="numeric"
+                      cachedName="Quantite"
+                      cachedPrecision="18"
+                      cachedScale="3"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[Quantite]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">quantite</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche].Columns[MontantRemise]"
+                      cachedDataType="numeric"
+                      cachedName="MontantRemise"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantRemise]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">montantRemise</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche].Columns[MontantBrut]"
+                      cachedDataType="numeric"
+                      cachedName="MontantBrut"
+                      cachedPrecision="37"
+                      cachedScale="8"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantBrut]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">montantBrut</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\F_vente\Recherche_Fait.Outputs[Sortie de recherche avec correspondance]"
+                  errorOrTruncationOperation="Recherche"
+                  exclusionGroup="1"
+                  name="Sortie de recherche avec correspondance"
+                  synchronousInputId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche_Fait.Outputs[Sortie de recherche sans correspondance]"
+                  description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
+                  exclusionGroup="1"
+                  name="Sortie de recherche sans correspondance"
+                  synchronousInputId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\F_vente\Recherche_Fait.Outputs[Sortie d'erreur de recherche]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de recherche"
+                  synchronousInputId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Recherche_Fait.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche_Fait.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\F_vente\Recherche_Fait.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Recherche_Fait.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -1253,13 +2925,421 @@ FROM            FactureClient INNER JOIN
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\F_vente\Unir tout"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Unir tout;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Combine des lignes de plusieurs flux de données sans effectuer de tri. Par exemple, rajoutez des lignes à un flux de données après correction des erreurs. Si le tri est important, nous recommandons l'utilisation de la transformation de fusion."
+              name="Unir tout"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1]"
+                  name="Unir tout entrée 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[CClient]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="CClient"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CClient]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClient]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[DateFacture]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DateFacture"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[DateFacture]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFacture]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[NFactureClient]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="NFactureClient"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[NFactureClient]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NFactureClient]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[CArticle]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CArticle"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CArticle]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CArticle]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[NLigne]"
+                      cachedDataType="i4"
+                      cachedName="NLigne"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[NLigne]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NLigne]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[PrixUnitaire]"
+                      cachedDataType="numeric"
+                      cachedName="PrixUnitaire"
+                      cachedPrecision="18"
+                      cachedScale="5"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[PrixUnitaire]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PrixUnitaire]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[CMagacin]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CMagacin"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CMagacin]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CMagacin]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[Quantite]"
+                      cachedDataType="numeric"
+                      cachedName="Quantite"
+                      cachedPrecision="18"
+                      cachedScale="3"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Quantite]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[Quantite]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[MontantBrut]"
+                      cachedDataType="numeric"
+                      cachedName="MontantBrut"
+                      cachedPrecision="37"
+                      cachedScale="8"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[MontantBrut]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantBrut]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[MontantRemise]"
+                      cachedDataType="numeric"
+                      cachedName="MontantRemise"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      lineageId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[MontantRemise]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantRemise]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[DateFactureModifiee]"
+                      cachedDataType="dbDate"
+                      cachedName="DateFactureModifiee"
+                      lineageId="Package\F_vente\Composant Script.Outputs[Sortie 0].Columns[DateFactureModifiee]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFactureModifiee]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[PK_Date]"
+                      cachedDataType="dbDate"
+                      cachedName="PK_Date"
+                      lineageId="Package\F_vente\Recherche Date.Outputs[Sortie de recherche avec correspondance].Columns[PK_Date]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PK_Date]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[CClientKey]"
+                      cachedDataType="i4"
+                      cachedName="CClientKey"
+                      lineageId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche avec correspondance].Columns[CClientKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClientKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[ActifType2Client]"
+                      cachedDataType="bool"
+                      cachedName="ActifType2Client"
+                      lineageId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche avec correspondance].Columns[ActifType2Client]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Client]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[articleKey]"
+                      cachedDataType="i4"
+                      cachedName="articleKey"
+                      lineageId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche avec correspondance].Columns[articleKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[articleKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[ActifType2Article]"
+                      cachedDataType="bool"
+                      cachedName="ActifType2Article"
+                      lineageId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche avec correspondance].Columns[ActifType2Article]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Article]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1].Columns[magasinKey]"
+                      cachedDataType="i4"
+                      cachedName="magasinKey"
+                      lineageId="Package\F_vente\Recherche Magasin.Outputs[Sortie de recherche avec correspondance].Columns[magasinKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de traçabilité de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[magasinKey]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\F_vente\Unir tout.Inputs[Entrée Union All 1]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Entrée Union All 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1]"
+                  name="Unir tout sortie 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClient]"
+                      dataType="wstr"
+                      length="10"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClient]"
+                      name="CClient" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFacture]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFacture]"
+                      name="DateFacture" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NFactureClient]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NFactureClient]"
+                      name="NFactureClient" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CArticle]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CArticle]"
+                      name="CArticle" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NLigne]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[NLigne]"
+                      name="NLigne" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PrixUnitaire]"
+                      dataType="numeric"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PrixUnitaire]"
+                      name="PrixUnitaire"
+                      precision="18"
+                      scale="5" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CMagacin]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CMagacin]"
+                      name="CMagacin" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[Quantite]"
+                      dataType="numeric"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[Quantite]"
+                      name="Quantite"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantBrut]"
+                      dataType="numeric"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantBrut]"
+                      name="MontantBrut"
+                      precision="37"
+                      scale="8" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantRemise]"
+                      dataType="numeric"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[MontantRemise]"
+                      name="MontantRemise"
+                      precision="38"
+                      scale="6" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFactureModifiee]"
+                      dataType="dbDate"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[DateFactureModifiee]"
+                      name="DateFactureModifiee" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PK_Date]"
+                      dataType="dbDate"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[PK_Date]"
+                      name="PK_Date" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClientKey]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[CClientKey]"
+                      name="CClientKey" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Client]"
+                      dataType="bool"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Client]"
+                      name="ActifType2Client" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[articleKey]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[articleKey]"
+                      name="articleKey" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Article]"
+                      dataType="bool"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[ActifType2Article]"
+                      name="ActifType2Article" />
+                    <outputColumn
+                      refId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[magasinKey]"
+                      dataType="i4"
+                      lineageId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1].Columns[magasinKey]"
+                      name="magasinKey" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
+            <path
+              refId="Package\F_vente.Paths[ActifTrue]"
+              endId="Package\F_vente\Recherche_Fait.Inputs[Entrée de recherche]"
+              name="ActifTrue"
+              startId="Package\F_vente\Fractionnement conditionnel.Outputs[ActifTrue]" />
+            <path
+              refId="Package\F_vente.Paths[Sortie 0]"
+              endId="Package\F_vente\Recherche Date.Inputs[Entrée de recherche]"
+              name="Sortie 0"
+              startId="Package\F_vente\Composant Script.Outputs[Sortie 0]" />
+            <path
+              refId="Package\F_vente.Paths[Sortie d'erreur de destination OLE DB]"
+              endId="Package\F_vente\Destination de fichier plat.Inputs[Entrée de destination de fichier plat]"
+              name="Sortie d'erreur de destination OLE DB"
+              startId="Package\F_vente\F_vente_DB.Outputs[Sortie d'erreur de destination OLE DB]" />
+            <path
+              refId="Package\F_vente.Paths[Sortie de recherche avec correspondance]"
+              endId="Package\F_vente\Recherche Client.Inputs[Entrée de recherche]"
+              name="Sortie de recherche avec correspondance"
+              startId="Package\F_vente\Recherche Date.Outputs[Sortie de recherche avec correspondance]" />
+            <path
+              refId="Package\F_vente.Paths[Sortie de recherche avec correspondance1]"
+              endId="Package\F_vente\Recherche Article.Inputs[Entrée de recherche]"
+              name="Sortie de recherche avec correspondance"
+              startId="Package\F_vente\Recherche Client.Outputs[Sortie de recherche avec correspondance]" />
+            <path
+              refId="Package\F_vente.Paths[Sortie de recherche avec correspondance2]"
+              endId="Package\F_vente\Recherche Magasin.Inputs[Entrée de recherche]"
+              name="Sortie de recherche avec correspondance"
+              startId="Package\F_vente\Recherche Article.Outputs[Sortie de recherche avec correspondance]" />
+            <path
+              refId="Package\F_vente.Paths[Sortie de recherche avec correspondance3]"
+              endId="Package\F_vente\Unir tout.Inputs[Unir tout entrée 1]"
+              name="Sortie de recherche avec correspondance"
+              startId="Package\F_vente\Recherche Magasin.Outputs[Sortie de recherche avec correspondance]" />
+            <path
+              refId="Package\F_vente.Paths[Sortie de recherche sans correspondance]"
+              endId="Package\F_vente\F_vente_DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de recherche sans correspondance"
+              startId="Package\F_vente\Recherche_Fait.Outputs[Sortie de recherche sans correspondance]" />
             <path
               refId="Package\F_vente.Paths[Sortie de source OLE DB]"
               endId="Package\F_vente\Composant Script.Inputs[Entrée 0]"
               name="Sortie de source OLE DB"
               startId="Package\F_vente\Source OLE DB.Outputs[Sortie de source OLE DB]" />
+            <path
+              refId="Package\F_vente.Paths[Unir tout sortie 1]"
+              endId="Package\F_vente\Fractionnement conditionnel.Inputs[Entrée de fractionnement conditionnel]"
+              name="Unir tout sortie 1"
+              startId="Package\F_vente\Unir tout.Outputs[Unir tout sortie 1]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1324,35 +3404,319 @@ FROM            FactureClient INNER JOIN
     design-time-name="Package\F_vente">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="150,42"
           Id="Package\F_vente\Source OLE DB"
-          TopLeft="355,94" />
+          TopLeft="352.777777777778,70.6666666666667" />
         <NodeLayout
           Size="162,42"
           Id="Package\F_vente\Composant Script"
-          TopLeft="353,191" />
+          TopLeft="346.333333333333,159.888888888889" />
         <EdgeLayout
           Id="Package\F_vente.Paths[Sortie de source OLE DB]"
-          TopLeft="432,136">
+          TopLeft="427.555555555556,112.666666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,55"
+              EndConnector="0,47.2222222222222"
               Start="0,0"
-              End="0,47.5">
+              End="0,39.7222222222222">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,47.5" />
+                    End="0,39.7222222222222" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="153,42"
+          Id="Package\F_vente\Recherche Date"
+          TopLeft="354.444444444445,252.222222222222" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[Sortie 0]"
+          TopLeft="429.138888888889,201.888888888889">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50.3333333333332"
+              Start="0,0"
+              End="0,42.8333333333332">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.8333333333332" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="158,42"
+          Id="Package\F_vente\Recherche Client"
+          TopLeft="587.777777777778,250" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[Sortie de recherche avec correspondance]"
+          TopLeft="507.444444444445,272.111111111111">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80.3333333333333,0"
+              Start="0,0"
+              End="72.8333333333333,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="72.8333333333333,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-55.2603450520834,5,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="161,42"
+          Id="Package\F_vente\Recherche Article"
+          TopLeft="578.888888888889,397.777777777778" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[Sortie de recherche avec correspondance1]"
+          TopLeft="663.083333333333,292">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,105.777777777778"
+              Start="0,0"
+              End="0,98.2777777777778">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,98.2777777777778" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-91.67701171875,43.3342013888889,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170,42"
+          Id="Package\F_vente\Recherche Magasin"
+          TopLeft="322.222222222222,405.555555555555" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[Sortie de recherche avec correspondance2]"
+          TopLeft="578.888888888889,422.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-86.6666666666665,0"
+              Start="0,0"
+              End="-79.1666666666665,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-79.1666666666665,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-131.260345052083,5,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="120,42"
+          Id="Package\F_vente\Unir tout"
+          TopLeft="347.777777777778,506.666666666667" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[Sortie de recherche avec correspondance3]"
+          TopLeft="407.5,447.555555555555">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.1111111111113"
+              Start="0,0"
+              End="0,51.6111111111113">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,51.6111111111113" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-91.67701171875,20.0008680555557,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="212,42"
+          Id="Package\F_vente\Fractionnement conditionnel"
+          TopLeft="307.777777777778,600" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[Unir tout sortie 1]"
+          TopLeft="410.777777777778,548.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.3333333333333"
+              Start="0,0"
+              End="0,43.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="151,42"
+          Id="Package\F_vente\Recherche_Fait"
+          TopLeft="374.444444444444,697.777777777778" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[ActifTrue]"
+          TopLeft="413.777777777778,642">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="36.1666666666665,55.7777777777778"
+              Start="0,0"
+              End="36.1666666666665,48.2777777777778">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.8888888888889" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.8888888888889"
+                    Point2="0,27.8888888888889"
+                    Point3="4,27.8888888888889" />
+                  <mssgle:LineSegment
+                    End="32.1666666666665,27.8888888888889" />
+                  <mssgle:CubicBezierSegment
+                    Point1="32.1666666666665,27.8888888888889"
+                    Point2="36.1666666666665,27.8888888888889"
+                    Point3="36.1666666666665,31.8888888888889" />
+                  <mssgle:LineSegment
+                    End="36.1666666666665,48.2777777777778" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-2.66108072916674,32.8888888888889,41.488828125,9.7978515625"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="136,42"
+          Id="Package\F_vente\F_vente_DB"
+          TopLeft="107.777777777778,733.333333333333" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[Sortie de recherche sans correspondance]"
+          TopLeft="374.444444444444,718.777777777778">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-130.666666666667,35.5555555555555"
+              Start="0,0"
+              End="-123.166666666667,35.5555555555555">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-61.3333333333333,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-61.3333333333333,0"
+                    Point2="-65.3333333333333,0"
+                    Point3="-65.3333333333333,4" />
+                  <mssgle:LineSegment
+                    End="-65.3333333333333,31.5555555555555" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-65.3333333333333,31.5555555555555"
+                    Point2="-65.3333333333333,35.5555555555555"
+                    Point3="-69.3333333333333,35.5555555555555" />
+                  <mssgle:LineSegment
+                    End="-123.166666666667,35.5555555555555" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-156.835345052083,-17.609375,183.0040234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="200,42"
+          Id="Package\F_vente\Destination de fichier plat"
+          TopLeft="410,801.111111111111" />
+        <EdgeLayout
+          Id="Package\F_vente.Paths[Sortie d'erreur de destination OLE DB]"
+          TopLeft="175.777777777778,775.333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="334.222222222222,25.7777777777777"
+              Start="0,0"
+              End="334.222222222222,18.2777777777777">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.88888888888886" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.88888888888886"
+                    Point2="0,12.8888888888889"
+                    Point3="4,12.8888888888889" />
+                  <mssgle:LineSegment
+                    End="330.222222222222,12.8888888888889" />
+                  <mssgle:CubicBezierSegment
+                    Point1="330.222222222222,12.8888888888889"
+                    Point2="334.222222222222,12.8888888888889"
+                    Point3="334.222222222222,16.8888888888889" />
+                  <mssgle:LineSegment
+                    End="334.222222222222,18.2777777777777" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="83.8296267361111,17.8888888888889,166.56296875,9.7490234375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -1363,6 +3727,134 @@ FROM            FactureClient INNER JOIN
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\F_vente\Recherche Date">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Heure]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\F_vente\Recherche Client">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DClients]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\F_vente\Recherche Article">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DArticle]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\F_vente\Recherche Magasin">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DMagasin]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\F_vente\Recherche_Fait">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[FVente]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\F_vente\F_vente_DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

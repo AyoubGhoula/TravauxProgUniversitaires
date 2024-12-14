@@ -1,0 +1,449 @@
+id_movie;title;genres;year;id_Director
+1;Toy Story;Adventure|Animation|Children|Comedy|Fantasy;1995;2
+2;Jumanji;Adventure|Children|Fantasy;1995;2
+3;Grumpier Old Men;Comedy|Romance;1994;1
+4;Waiting to Exhale;Comedy|Drama|Romance;1995;6
+5;Father of the Bride Part II;;1994;7
+6;Heat;Action|Crime|Thriller;-1995;9
+7;Sabrina;Comedy|Romance;1994;7
+8;Tom and Huck;Adventure|Children;1994;8
+9;Sudden Death;Action;1995;9
+10;GoldenEye;Action|Adventure|Thriller;1995;7
+11;American President  The;Comedy|Drama|Romance;1995;5
+12;Dracula: Dead and Loving It;Comedy|Horror;1995;7
+13;Balto;Adventure|Animation|Children;1995;10
+14;Nixon;Drama;-1994;7
+15;Cutthroat Island;Action|Adventure|Romance;1994;1
+16;Casino;;1995;3
+17;Sense and Sensibility;Drama|Romance;1995;7
+18;Four Rooms;Comedy;1994;4
+19;Ace Ventura: When Nature Calls;;1995;9
+20;Money Train;Action|Comedy|Crime|Drama|Thriller;1994;2
+21;Get Shorty;Comedy|Crime|Thriller;1994;5
+22;Copycat;Crime|Drama|Horror|Mystery|Thriller;1994;10
+23;Assassins;Action|Crime|Thriller;1995;10
+24;Powder;Drama|Sci-Fi;1994;8
+25;Leaving Las Vegas;Drama|Romance;1994;9
+26;Othello;Drama;1995;3
+27;Now and Then;Children|Drama;1994;10
+28;Persuasion;Drama|Romance;1994;4
+29;City of Lost Children The (Cité des enfants perdus La);Adventure|Drama|Fantasy|Mystery|Sci-Fi;1995;7
+30;Shanghai Triad (Yao a yao yao dao waipo qiao);Crime|Drama;-1994;3
+31;Dangerous Minds;Drama;1994;2
+32;Twelve Monkeys (a.k.a. 12 Monkeys);Mystery|Sci-Fi|Thriller;1994;1
+34;Babe;Children|Drama;1995;1
+35;Carrington;Drama|Romance;1994;10
+36;Dead Man Walking;Crime|Drama;1994;3
+37;Across the Sea of Time;Documentary|IMAX;1994;3
+38;It Takes Two;Children|Comedy;1994;4
+39;Clueless;Comedy|Romance;1995;5
+40;Cry  the Beloved Country;Drama;1994;4
+41;Richard III;Drama|War;1994;1
+42;Dead Presidents;Action|Crime|Drama;1995;8
+43;Restoration;;1994;10
+44;Mortal Kombat;Action|Adventure|Fantasy;1995;4
+45;To Die For;Comedy|Drama|Thriller;1995;4
+46;How to Make an American Quilt;Drama|Romance;1994;8
+47;Seven (a.k.a. Se7en);Mystery|Thriller;1994;5
+48;Pocahontas;Animation|Children|Drama|Musical|Romance;1995;10
+49;When Night Is Falling;Drama|Romance;1994;10
+50;Usual Suspects  The;Crime|Mystery|Thriller;1994;1
+52;Mighty Aphrodite;Comedy|Drama|Romance;1995;3
+53;Lamerica;Adventure|Drama;1993;4
+54;Big Green  The;Children|Comedy;1995;6
+55;Georgia;Drama;1995;5
+57;Home for the Holidays;Drama;1995;8
+58;Postman  The (Postino  Il);Comedy|Drama|Romance;1993;8
+59;Confessional  The (Confessionnal  Le);Drama|Mystery;1995;9
+60;Indian in the Cupboard  The;Adventure|Children|Fantasy;-1994;4
+61;Eye for an Eye;Drama|Thriller;1995;1
+62;Mr. Holland's Opus;Drama;1995;4
+63;Don't Be a Menace to South Central While Drinking Your Juice in the Hood;Comedy|Crime;1996;3
+64;Two if by Sea;Comedy|Romance;1995;4
+65;Bio-Dome;Comedy;1995;30
+66;Lawnmower Man 2: Beyond Cyberspace;Action|Sci-Fi|Thriller;1995;4
+68;French Twist (Gazon maudit);Comedy|Romance;1995;7
+69;Friday;Comedy;1994;3
+70;From Dusk Till Dawn;Action|Comedy|Horror|Thriller;1995;3
+71;Fair Game;Action;1994;10
+72;Kicking and Screaming;Comedy|Drama;1995;9
+73;Misérables  Les;Drama|War;1995;8
+74;Bed of Roses;Drama|Romance;1996;8
+76;Screamers;Action|Sci-Fi|Thriller;1994;7
+77;Nico Icon;Documentary;1995;2
+78;Crossing Guard  The;Action|Crime|Drama|Thriller;1994;6
+79;Juror  The;Drama|Thriller;1996;5
+80;White Balloon  The (Badkonake sefid);Children|Drama;1995;10
+81;Things to Do in Denver When You're Dead;Crime|Drama|Romance;1994;4
+82;Antonia's Line (Antonia);Comedy|Drama;1994;1
+83;Once Upon a Time... When We Were Colored;Drama|Romance;1995;9
+84;Last Summer in the Hamptons;Comedy|Drama;1995;1
+85;Angels and Insects;Drama|Romance;1995;9
+86;White Squall;Action|Adventure|Drama;1995;10
+87;Dunston Checks In;Children|Comedy;1995;8
+88;Black Sheep;Comedy;1995;8
+89;Nick of Time;Action|Thriller;1995;1
+92;Mary Reilly;Drama|Horror|Thriller;1996;4
+93;Vampire in Brooklyn;Comedy|Horror|Romance;1994;2
+94;Beautiful Girls;Comedy|Drama|Romance;1995;9
+95;Broken Arrow;Action|Adventure|Thriller;1995;7
+96;In the Bleak Midwinter;Comedy|Drama;1995;7
+97;Hate (Haine  La);Crime|Drama;1994;2
+98;Shopping;Action|Thriller;1994;10
+99;Heidi Fleiss: Hollywood Madam;Documentary;1995;6
+100;City Hall;Drama|Thriller;1996;30
+101;Bottle Rocket;Adventure|Comedy|Crime|Romance;1996;3
+102;Mr. Wrong;Comedy;1996;24
+103;Unforgettable;Mystery|Sci-Fi|Thriller;1995;9
+104;Happy Gilmore;Comedy;1995;5
+105;Bridges of Madison County  The;Drama|Romance;1995;9
+107;Muppet Treasure Island;Adventure|Children|Comedy|Musical;1995;7
+108;Catwalk;Documentary;1995;1
+110;Braveheart;Action|Drama|War;1995;5
+111;Taxi Driver;Crime|Drama|Thriller;1976;5
+112;Rumble in the Bronx (Hont faan kui);Action|Adventure|Comedy|Crime;1995;6
+113;Before and After;Drama|Mystery;1995;4
+114;Margaret's Museum;Drama;1995;1
+116;Anne Frank Remembered;Documentary;1995;10
+117;Young Poisoner's Handbook  The;Crime|Drama;1994;3
+118;If Lucy Fell;Comedy|Romance;1995;4
+119;Steal Big  Steal Little;Comedy;1995;9
+121;Boys of St. Vincent  The;Drama;1992;10
+122;Boomerang;Comedy|Romance;1991;10
+123;Chungking Express (Chung Hing sam lam);Drama|Mystery|Romance;1993;5
+124;Star Maker  The (Uomo delle stelle  L');Drama;1995;3
+125;Flirting With Disaster;Comedy;1995;4
+126;NeverEnding Story III  The;Adventure|Children|Fantasy;1994;10
+129;Pie in the Sky;Comedy|Romance;1995;6
+130;Angela;Drama;1994;6
+131;Frankie Starlight;Drama|Romance;1994;1
+132;Jade;Thriller;1994;10
+135;Down Periscope;Comedy;1996;8
+137;Man of the Year;Documentary;1994;6
+140;Up Close and Personal;Drama|Romance;1996;24
+141;Birdcage  The;Comedy;1996;4
+144;Brothers McMullen  The;Comedy;1995;9
+145;Bad Boys;Action|Comedy|Crime|Drama|Thriller;1995;8
+146;Amazing Panda Adventure  The;Adventure|Children;1995;7
+147;Basketball Diaries  The;Drama;1995;4
+148;Awfully Big Adventure  An;Drama;1994;7
+149;Amateur;Crime|Drama|Thriller;1994;5
+150;Apollo 13;Adventure|Drama|IMAX;1994;3
+151;Rob Roy;Action|Drama|Romance|War;1994;6
+152;Addiction  The;Drama|Horror;1994;6
+153;Batman Forever;Action|Adventure|Comedy|Crime;1995;3
+154;Beauty of the Day (Belle de jour);Drama;1967;5
+155;Beyond Rangoon;Adventure|Drama|War;1994;7
+156;Blue in the Face;Comedy|Drama;1994;3
+157;Canadian Bacon;;1994;9
+158;Casper;Adventure|Children;1994;2
+159;Clockers;Crime|Drama|Mystery;1994;2
+160;Congo;Action|Adventure|Mystery|Sci-Fi;1994;1
+161;Crimson Tide;Drama|Thriller|War;1994;5
+162;Crumb;Documentary;1994;5
+163;Desperado;Action|Romance|Western;1995;7
+164;Devil in a Blue Dress;Crime|Film-Noir|Mystery|Thriller;1995;9
+165;Die Hard: With a Vengeance;Action|Crime|Thriller;1994;10
+166;Doom Generation  The;Comedy|Crime|Drama;1994;4
+167;Feast of July;Drama;1995;9
+168;First Knight;Action|Drama|Romance;1994;5
+169;Free Willy 2: The Adventure Home;Adventure|Children|Drama;1995;5
+170;Hackers;Action|Adventure|Crime|Thriller;1994;2
+171;Jeffrey;Comedy|Drama;1995;4
+172;Johnny Mnemonic;Action|Sci-Fi|Thriller;1995;1
+173;Judge Dredd;Action|Crime|Sci-Fi;1995;10
+174;Jury Duty;Comedy;1995;6
+175;Kids;Drama;1994;2
+176;Living in Oblivion;Comedy;1995;4
+177;Lord of Illusions;Horror;1994;1
+178;Love & Human Remains;Comedy|Drama;1993;3
+179;Mad Love;Drama|Romance;1995;7
+180;Mallrats;Comedy|Romance;1995;6
+181;Mighty Morphin Power Rangers: The Movie;Action|Children;1994;7
+183;Mute Witness;Comedy|Horror|Thriller;1994;5
+184;Nadja;Drama;1994;9
+185;Net  The;Action|Crime|Thriller;1995;10
+186;Nine Months;Comedy|Romance;1994;2
+187;Party Girl;Comedy;1994;10
+188;Prophecy  The;Fantasy|Horror|Mystery;1994;9
+189;Reckless;Comedy|Fantasy;1995;4
+190;Safe;Thriller;1995;9
+191;Scarlet Letter  The;Drama|Romance;1994;5
+193;Showgirls;Drama;1995;1
+194;Smoke;Comedy|Drama;1995;4
+195;Something to Talk About;Comedy|Drama|Romance;1995;2
+196;Species;Horror|Sci-Fi;1995;5
+198;Strange Days;Action|Crime|Drama|Mystery|Sci-Fi|Thriller;1994;2
+199;Umbrellas of Cherbourg  The (Parapluies de Cherbourg  Les);Drama|Musical|Romance;1963;10
+200;Tie That Binds  The;Thriller;1995;8
+201;Three Wishes;Drama|Fantasy;1994;1
+202;Total Eclipse;Drama|Romance;1994;7
+203;To Wong Foo  Thanks for Everything! Julie Newmar;Comedy;1994;9
+204;Under Siege 2: Dark Territory;Action;1994;6
+205;Unstrung Heroes;Comedy|Drama;1994;1
+206;Unzipped;Documentary;1995;1
+207;Walk in the Clouds  A;Drama|Romance;1994;10
+208;Waterworld;Action|Adventure|Sci-Fi;1994;7
+209;White Man's Burden;Drama;1994;6
+211;Browning Version  The;Drama;1993;7
+213;Burnt by the Sun (Utomlyonnye solntsem);Drama;1994;1
+214;Before the Rain (Pred dozhdot);Drama|War;1993;7
+215;Before Sunrise;Drama|Romance;1995;6
+216;Billy Madison;Comedy;1995;10
+217;Babysitter  The;Drama|Thriller;1995;10
+218;Boys on the Side;Comedy|Drama;1995;6
+219;Cure  The;Drama;1994;4
+220;Castle Freak;Horror;1994;5
+222;Circle of Friends;Drama|Romance;1995;2
+223;Clerks;Comedy;1993;9
+224;Don Juan DeMarco;Comedy|Drama|Romance;1994;8
+225;Disclosure;Drama|Thriller;1993;3
+227;Drop Zone;Action|Thriller;1993;8
+228;Destiny Turns on the Radio;Comedy;1995;2
+229;Death and the Maiden;Drama|Thriller;1993;2
+230;Dolores Claiborne;Drama|Thriller;1994;7
+231;Dumb & Dumber (Dumb and Dumber);Adventure|Comedy;1994;5
+232;Eat Drink Man Woman (Yin shi nan nu);Comedy|Drama|Romance;1994;7
+233;Exotica;Drama;1993;2
+234;Exit to Eden;Comedy;1993;5
+235;Ed Wood;Comedy|Drama;1993;3
+236;French Kiss;Action|Comedy|Romance;1994;7
+237;Forget Paris;Comedy|Romance;1995;7
+238;Far From Home: The Adventures of Yellow Dog;Adventure|Children;1994;2
+239;Goofy Movie  A;Animation|Children|Comedy|Romance;1995;8
+240;Hideaway;Thriller;1995;6
+241;Fluke;Children|Drama;1994;2
+242;Farinelli: il castrato;Drama|Musical;1993;5
+243;Gordy;Children|Comedy|Fantasy;1995;4
+244;Gumby: The Movie;Animation|Children;1995;5
+245;The Glass Shield;Crime|Drama;1994;8
+246;Hoop Dreams;Documentary;1994;9
+247;Heavenly Creatures;Crime|Drama;1993;2
+248;Houseguest;Comedy;1994;7
+249;Immortal Beloved;Drama|Romance;1993;8
+250;Heavyweights (Heavy Weights);Children|Comedy;1995;6
+251;Hunted  The;Action;1995;3
+252;I.Q.;Comedy|Romance;1994;6
+253;Interview with the Vampire: The Vampire Chronicles;Drama|Horror;1994;3
+254;Jefferson in Paris;Drama;1994;7
+255;Jerky Boys  The;Comedy;1995;2
+256;Junior;;1994;5
+257;Just Cause;Mystery|Thriller;1995;6
+258;Kid in King Arthur's Court  A;Adventure|Children|Comedy|Fantasy|Romance;1994;8
+259;Kiss of Death;Crime|Drama|Thriller;1995;2
+260;Star Wars: Episode IV - A New Hope;Action|Adventure|Sci-Fi;1977;1
+261;Little Women;Drama;1993;7
+262;Little Princess  A;Children|Drama;1994;1
+263;Ladybird Ladybird;Drama;1994;5
+264;Enfer  L';Drama;1993;5
+265;Like Water for Chocolate (Como agua para chocolate);Drama|Fantasy|Romance;1992;10
+266;Legends of the Fall;Drama|Romance|War|Western;1994;5
+267;Major Payne;Comedy;1994;2
+268;Little Odessa;Crime|Drama;1993;10
+269;My Crazy Life (Mi vida loca);Drama;1992;3
+270;Love Affair;Drama|Romance;1993;1
+271;Losing Isaiah;Drama;1994;6
+272;Madness of King George  The;Comedy|Drama;1993;10
+273;Mary Shelley's Frankenstein (Frankenstein);Drama|Horror|Sci-Fi;1993;2
+274;Man of the House;Comedy;1994;10
+275;Mixed Nuts;Comedy;1994;4
+276;Milk Money;Comedy|Romance;1994;9
+277;Miracle on 34th Street;Drama;1993;9
+278;Miami Rhapsody;Comedy;1995;10
+279;My Family;Drama;1994;10
+280;Murder in the First;Drama|Thriller;1994;9
+281;Nobody's Fool;Comedy|Drama|Romance;1994;5
+282;Nell;Drama;1994;8
+283;New Jersey Drive;Crime|Drama;1995;6
+285;Beyond Bedlam;Drama|Horror;1992;1
+287;Nina Takes a Lover;Comedy|Romance;1993;8
+288;Natural Born Killers;Action|Crime|Thriller;1994;7
+289;Only You;Comedy|Romance;1994;4
+290;Once Were Warriors;Crime|Drama;1994;4
+291;Poison Ivy II;Drama|Thriller;1995;3
+292;Outbreak;Action|Drama|Sci-Fi|Thriller;1995;5
+293;Léon: The Professional (a.k.a. The Professional) (Léon);Action|Crime|Drama|Thriller;1994;4
+294;Perez Family  The;Comedy|Romance;1995;9
+295;Pyromaniac's Love Story  A;Comedy|Romance;1994;8
+296;Pulp Fiction;Comedy|Crime|Drama|Thriller;1994;4
+299;Priest;Drama;1994;1
+300;Quiz Show;Drama;1993;6
+301;Picture Bride (Bijo photo);Drama|Romance;1993;8
+302;Queen Margot (Reine Margot  La);Drama|Romance;1993;4
+303;Quick and the Dead  The;Action|Thriller|Western;1994;5
+304;Roommates;Comedy|Drama;1994;5
+305;Ready to Wear (Pret-A-Porter);Comedy;1994;10
+306;Three Colors: Red (Trois couleurs: Rouge);Drama;1993;3
+307;Three Colors: Blue (Trois couleurs: Bleu);Drama;1993;4
+308;Three Colors: White (Trzy kolory: Bialy);Comedy|Drama;1993;6
+309;Red Firecracker  Green Firecracker (Pao Da Shuang Deng);Drama;1993;5
+312;Stuart Saves His Family;Comedy;1994;1
+313;Swan Princess  The;Animation|Children;1994;7
+314;Secret of Roan Inish  The;Children|Drama|Fantasy|Mystery;1994;4
+315;Specialist  The;Action|Drama|Thriller;1994;3
+316;Stargate;Action|Adventure|Sci-Fi;1994;6
+317;Santa Clause  The;Comedy|Drama|Fantasy;1994;5
+318;Shawshank Redemption  The;Crime|Drama;1994;1
+319;Shallow Grave;Comedy|Drama|Thriller;1994;3
+320;Suture;Film-Noir|Thriller;1993;10
+321;Strawberry and Chocolate (Fresa y chocolate);Drama;1992;5
+322;Swimming with Sharks;Comedy|Drama;1994;9
+324;Sum of Us  The;Comedy|Drama;1993;9
+325;National Lampoon's Senior Trip;Comedy;1995;10
+326;To Live (Huozhe);Drama;1993;3
+327;Tank Girl;Action|Comedy|Sci-Fi;1994;4
+328;Tales from the Crypt Presents: Demon Knight;Horror|Thriller;1994;2
+329;Star Trek: Generations;Adventure|Drama|Sci-Fi;1994;5
+330;Tales from the Hood;Action|Crime|Horror;1994;3
+331;Tom & Viv;Drama;1994;8
+332;Village of the Damned;Horror|Sci-Fi;1994;8
+333;Tommy Boy;Comedy;-1994;6
+334;Vanya on 42nd Street;Drama;1994;3
+335;Underneath;Mystery|Thriller;1995;5
+336;Walking Dead  The;Drama|War;1995;6
+337;What's Eating Gilbert Grape;Drama;1992;1
+338;Virtuosity;Action|Sci-Fi|Thriller;1995;4
+339;While You Were Sleeping;Comedy|Romance;1994;2
+340;War  The;Adventure|Drama|War;1993;2
+341;Double Happiness;Drama;1994;10
+342;Muriel's Wedding;Comedy;1993;10
+343;Baby-Sitters Club  The;Children;1995;9
+344;Ace Ventura: Pet Detective;Comedy;1994;5
+345;Adventures of Priscilla  Queen of the Desert  The;Comedy|Drama;1994;2
+346;Backbeat;Drama|Musical;1993;7
+347;Bitter Moon;Drama|Film-Noir|Romance;1991;2
+348;Bullets Over Broadway;Comedy;1993;6
+349;Clear and Present Danger;Action|Crime|Drama|Thriller;1993;1
+350;Client  The;Drama|Mystery|Thriller;1993;6
+351;Corrina  Corrina;Comedy|Drama|Romance;1993;2
+352;Crooklyn;Comedy|Drama;1994;3
+353;Crow  The;Action|Crime|Fantasy|Thriller;1994;10
+354;Cobb;Drama;1993;10
+355;Flintstones  The;Children|Comedy|Fantasy;1993;1
+356;Forrest Gump;Comedy|Drama|Romance|War;1993;8
+357;Four Weddings and a Funeral;Comedy|Romance;1994;8
+358;Higher Learning;Drama;1994;1
+360;I Love Trouble;Action|Comedy;1993;1
+361;It Could Happen to You;Comedy|Drama|Romance;1994;7
+362;Jungle Book  The;Adventure|Children|Romance;1993;4
+363;Wonderful  Horrible Life of Leni Riefenstahl  The (Macht der Bilder: Leni Riefenstahl  Die);Documentary;1992;7
+364;Lion King  The;Adventure|Animation|Children|Drama|Musical|IMAX;1994;5
+365;Little Buddha;Drama;1992;2
+366;Wes Craven's New Nightmare (Nightmare on Elm Street Part 7: Freddy's Finale  A);Drama|Horror|Mystery|Thriller;1993;6
+367;Mask  The;Action|Comedy|Crime|Fantasy;1993;5
+368;Maverick;Adventure|Comedy|Western;1993;1
+369;Mrs. Parker and the Vicious Circle;Drama;1994;10
+370;Naked Gun 33 1/3: The Final Insult;Action|Comedy;1993;7
+371;Paper  The;Comedy|Drama;1994;1
+372;Reality Bites;Comedy|Drama|Romance;1994;10
+373;Red Rock West;Thriller;1992;2
+374;Richie Rich;Children|Comedy;1993;6
+375;Safe Passage;Drama;1994;1
+376;River Wild  The;Action|Thriller;1994;3
+377;Speed;Action|Romance|Thriller;1994;4
+378;Speechless;Comedy|Romance;1994;9
+379;Timecop;Action|Sci-Fi|Thriller;1993;7
+380;True Lies;Action|Adventure|Comedy|Romance|Thriller;1994;5
+381;When a Man Loves a Woman;Drama|Romance;1993;5
+382;Wolf;Drama|Horror|Romance|Thriller;1994;10
+383;Wyatt Earp;Western;1993;8
+384;Bad Company;Action|Crime|Drama;1994;7
+387;Low Down Dirty Shame  A;Action|Comedy;1993;5
+388;Boys Life;Drama;1995;2
+389;Colonel Chabert  Le;Drama|Romance|War;1994;7
+390;Faster Pussycat! Kill! Kill!;Action|Crime|Drama;1964;7
+391;Jason's Lyric;Crime|Drama;1994;5
+392;Secret Adventures of Tom Thumb  The;Adventure|Animation;1992;4
+393;Street Fighter;Action|Adventure|Fantasy;1993;2
+401;Mirage;Action|Thriller;1994;2
+405;Highlander III: The Sorcerer (a.k.a. Highlander: The Final Dimension);Action|Fantasy;1993;5
+407;In the Mouth of Madness;Horror|Thriller;1994;3
+408;8 Seconds;Drama;1994;8
+409;Above the Rim;Crime|Drama;1994;6
+410;Addams Family Values;Children|Comedy|Fantasy;1993;10
+412;Age of Innocence  The;Drama;1992;1
+413;Airheads;Comedy;1993;6
+414;Air Up There  The;Comedy;1994;7
+415;Another Stakeout;Comedy|Thriller;1993;5
+416;Bad Girls;Western;1994;10
+417;Barcelona;Comedy|Romance;1994;6
+418;Being Human;Drama;1993;7
+419;Beverly Hillbillies  The;Comedy;1993;9
+420;Beverly Hills Cop III;Action|Comedy|Crime|Thriller;1993;10
+421;Black Beauty;Adventure|Children|Drama;1994;6
+422;Blink;Thriller;1993;5
+423;Blown Away;Action|Thriller;1994;2
+424;Blue Chips;Drama;1993;3
+425;Blue Sky;Drama|Romance;1993;8
+426;Body Snatchers;Horror|Sci-Fi|Thriller;1993;6
+427;Boxing Helena;Drama|Mystery|Romance|Thriller;1993;1
+428;Bronx Tale  A;Drama;1992;6
+429;Cabin Boy;Comedy;1993;3
+431;Carlito's Way;Crime|Drama;1992;6
+432;City Slickers II: The Legend of Curly's Gold;Adventure|Comedy|Western;1993;2
+433;Clean Slate;Comedy;1993;6
+434;Cliffhanger;Action|Adventure|Thriller;1992;7
+435;Coneheads;Comedy|Sci-Fi;1992;3
+436;Color of Night;Drama|Thriller;1994;4
+437;Cops and Robbersons;Comedy;1993;3
+438;Cowboy Way  The;Action|Comedy|Drama;1994;8
+439;Dangerous Game;Drama;1993;6
+440;Dave;Comedy|Romance;1993;3
+441;Dazed and Confused;Comedy;1992;4
+442;Demolition Man;Action|Adventure|Sci-Fi;1993;3
+443;Endless Summer 2  The;Adventure|Documentary;1994;3
+444;Even Cowgirls Get the Blues;Comedy|Romance;1993;8
+445;Fatal Instinct;Comedy;1993;5
+446;Farewell My Concubine (Ba wang bie ji);Drama|Romance;1993;10
+447;Favor  The;Comedy|Romance;1994;1
+448;Fearless;Drama;1993;9
+449;Fear of a Black Hat;Comedy;1993;9
+450;With Honors;Comedy|Drama;1993;4
+451;Flesh and Bone;Drama|Mystery|Romance;1992;6
+452;Widows' Peak;Drama;1994;6
+453;For Love or Money;Comedy|Romance;1992;2
+454;Firm  The;Drama|Thriller;1992;6
+455;Free Willy;Adventure|Children|Drama;1993;5
+456;Fresh;Crime|Drama|Thriller;1993;4
+457;Fugitive  The;Thriller;1993;5
+458;Geronimo: An American Legend;Drama|Western;1993;1
+459;Getaway  The;Action|Adventure|Crime|Drama|Romance|Thriller;1993;2
+460;Getting Even with Dad;Comedy;1993;4
+461;Go Fish;Drama|Romance;1993;1
+463;Guilty as Sin;Crime|Drama|Thriller;1993;1
+464;Hard Target;Action|Adventure|Crime|Thriller;1993;3
+465;Heaven & Earth;Action|Drama|War;1992;6
+466;Hot Shots! Part Deux;Action|Comedy|War;1993;7
+467;Live Nude Girls;Comedy;1994;6
+468;Englishman Who Went Up a Hill But Came Down a Mountain  The;Comedy|Romance;1994;4
+469;House of the Spirits  The;Drama|Romance;1993;8
+470;House Party 3;Comedy;1993;10
+471;Hudsucker Proxy  The;Comedy;1994;5
+472;I'll Do Anything;Comedy|Drama;1994;7
+473;In the Army Now;Comedy|War;1994;4
+474;In the Line of Fire;Action|Thriller;1992;9
+475;In the Name of the Father;Drama;1992;2
+476;Inkwell  The;Comedy|Drama;1993;6
+477;What's Love Got to Do with It?;Drama|Musical;1993;3
+479;Judgment Night;Action|Crime|Thriller;1993;7
+480;Jurassic Park;Action|Adventure|Sci-Fi|Thriller;1993;8
+481;Kalifornia;Drama|Thriller;1993;2
+482;Killing Zoe;Crime|Drama|Thriller;1994;2
+483;King of the Hill;Drama;1993;3
+484;Lassie;Adventure|Children;1993;2
+485;Last Action Hero;Action|Adventure|Comedy|Fantasy;1993;4
+486;Life with Mikey;Comedy;1992;9
+487;Lightning Jack;Comedy|Western;1993;9
+488;M. Butterfly;Drama|Romance;1992;8
+489;Made in America;Comedy;1993;10
+490;Malice;Thriller;1992;10
+491;Man Without a Face  The;Drama;1993;8
+492;Manhattan Murder Mystery;Comedy|Mystery;1992;6
+493;Menace II Society;Action|Crime|Drama;1993;1
+494;Executive Decision;Action|Adventure|Thriller;1995;5
+495;In the Realm of the Senses (Ai no corrida);Drama;1976;8
+496;What Happened Was...;Comedy|Drama|Romance|Thriller;1994;6
+497;Much Ado About Nothing;Comedy|Romance;1993;5
+498;Mr. Jones;Drama|Romance;1992;3
+499;Mr. Wonderful;Comedy|Romance;1993;5
+500;Mrs. Doubtfire;Comedy|Drama;1993;7

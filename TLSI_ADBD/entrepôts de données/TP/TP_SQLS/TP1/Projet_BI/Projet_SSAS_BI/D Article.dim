@@ -1,0 +1,456 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dcdc4a83-9f91-43ba-beca-97bc01eeed7b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>D Article</ID>
+  <Name>D Article</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1184" scrolltop="-1918" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5980" y="8837" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DArticle" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3572" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f40d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DArticle" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1184</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1918</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="125">
+            <Shape Id="Article Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Article Key" />
+                <Attribute Id="C Article" />
+                <Attribute Id="Des Article" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Des Type" Expanded="false">
+              <Attributes>
+                <Attribute Id="Des Type" />
+              </Attributes>
+              <Position x="181" y="20" />
+            </Shape>
+            <Shape Id="Des Sous Famille" Expanded="false">
+              <Attributes>
+                <Attribute Id="Des Sous Famille" />
+              </Attributes>
+              <Position x="181" y="68" />
+            </Shape>
+            <Shape Id="Des Famille" Expanded="false">
+              <Attributes>
+                <Attribute Id="Des Famille" />
+              </Attributes>
+              <Position x="342" y="68" />
+            </Shape>
+            <Shape Id="Des Marque" Expanded="false">
+              <Attributes>
+                <Attribute Id="Des Marque" />
+              </Attributes>
+              <Position x="503" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="252eb06b-7511-4fa7-b2c6-63ba38b555c4">
+    <DataSourceViewID>Data Target</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b108ab02-cf91-4fad-a43f-ee40c84a65ce">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="f0fae555-977d-43eb-9167-d9390e8595bd">
+      <ID>Article Key</ID>
+      <Name>Article Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="96ba6320-de3d-46c3-8d48-f8e052a1ce92">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="03f563ba-52e2-43ea-94a6-bf1528de3141">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesMarque</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="8d744237-68fd-43f4-9cad-55e5b20ef710">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ccf64000-361f-4df6-948f-87b73db45fdf">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesFamille</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="1e0f27c6-e58e-48fc-a15c-12965715bd39">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1506aa5e-4945-492b-a919-791a50951cca">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesSousFamille</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="735ec151-d4d4-4cd1-bf1e-b0420f307fff">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ceb3a08-dee5-4e55-983f-f4cac15054bb">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>CArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="960a6c7a-ec09-440b-8532-52fab20981ab">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="48d31a69-1022-4802-a4b9-285d6a89a073">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>articleKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="4ddaf8be-7039-4ecc-b79c-a85ea3f37f29">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="096ec0b2-7b17-4951-b63c-503c0ae8c912">
+          <TableID>dbo_DArticle</TableID>
+          <ColumnID>articleKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7336890f-df25-4ba1-839c-0fb02372cb4e">
+          <AttributeID>C Article</AttributeID>
+          <Name>C Article</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3c0df2bc-c88f-493c-941c-be129bf84b63">
+          <AttributeID>Des Article</AttributeID>
+          <Name>Des Article</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="be4852e8-eb1d-4f7e-bbe4-a591770752a5">
+          <AttributeID>Des Sous Famille</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Des Sous Famille</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ff96bc1c-b7fd-4ab6-aa93-fb4bbbbcaef4">
+          <AttributeID>Des Type</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Des Type</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="abc3d0e8-6279-46cd-800e-008c2ebcfa48">
+      <ID>C Article</ID>
+      <Name>C Article</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="abd3de1a-a599-4c6d-91fe-c83a9e15cc2e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="33a02e36-967a-4def-8f61-b73a375f602b">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesMarque</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="35d9ceba-11e3-4952-8aca-acbce56f63a2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="851d3301-f336-46bc-8313-4f736c4adcc5">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesFamille</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e7fe77f3-1115-40a9-85b1-3d8c3320b880">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f51742c-b6ca-4372-af5b-68276576be8c">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesSousFamille</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="49fea356-ed79-4da2-a744-5acd2e9bb7dd">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1d86525-2f84-4d4a-a00c-ba56865bab64">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>CArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="939ac7a5-8a51-44eb-827e-d11804e4b9d1">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="21bcceca-98aa-4c58-bd9a-f05e7e937d26">
+          <TableID>dbo_DArticle</TableID>
+          <ColumnID>CArticle</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a6776720-5ecb-4480-ae82-9f8d652616d0">
+      <ID>Des Article</ID>
+      <Name>Des Article</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b877b22f-7891-47bc-85fe-f2dbe08e8861">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b87f2405-fa82-431a-ab7e-7d58fda1e936">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesArticle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="cf550772-d0fc-437d-bab0-22d736e26fdf">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d054bafb-33e6-44a9-9098-b7f67758ba03">
+          <TableID>dbo_DArticle</TableID>
+          <ColumnID>DesArticle</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5a590337-3b89-4cfe-a2fd-95fd775e5ec9">
+      <ID>Des Famille</ID>
+      <Name>Des Famille</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e68588a-1de4-449c-9c85-c9505b1c3d3a">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd841099-979a-4ffa-85f9-1142804f91d1">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesMarque</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="40a30f0a-4164-4f44-ad37-92be68ca83ef">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bbbcc25-f243-4857-9a30-58cfd28a1547">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesFamille</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3964a024-2cd3-4dd7-813a-202ce83fb996">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5bc25df6-0b0f-40f1-a43d-cea3862577f8">
+          <TableID>dbo_DArticle</TableID>
+          <ColumnID>DesFamille</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bb912c40-efc9-4100-8cb3-b33f9909b10d">
+          <AttributeID>Des Marque</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Des Marque</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="16aa517e-74c2-4b4c-887c-2f664ae3de55">
+      <ID>Des Marque</ID>
+      <Name>Des Marque</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dcddd323-50ff-48c6-bb7f-50d960c0a1e3">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3e9d4e4-00b2-48c3-b435-cb621977e879">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesMarque</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f76b5294-858a-4c55-a512-e93ba6e8ea2a">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="55ad1089-4f58-4c20-a039-684b0ba1cc9c">
+          <TableID>dbo_DArticle</TableID>
+          <ColumnID>DesMarque</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="16f5e8a7-5c96-48ff-8da9-1dc8dfab861a">
+      <ID>Des Type</ID>
+      <Name>Des Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a3e31d40-1cd1-4040-a930-7bb7fc148f7e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="63a49e11-c809-4e39-b378-895a9293604d">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="4ed3ab12-611e-4173-8c79-90100983d19a">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d4199a3f-7337-41b6-81ae-8065248b56af">
+          <TableID>dbo_DArticle</TableID>
+          <ColumnID>DesType</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="420b79f9-bc8c-496e-814f-e95c7edef365">
+      <ID>Des Sous Famille</ID>
+      <Name>Des Sous Famille</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="354a1067-17d3-4454-9d8e-fceaada7fee3">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="788bf078-5d27-4aab-b091-01220cca65df">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesMarque</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="10b53636-e3df-4896-a459-65ed75ee0ac1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9abbdf4b-e500-4764-a5e9-9a6d01270799">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesFamille</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="b871ea24-69ce-45ed-8da4-08696b697c69">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6d8e170-7e63-439c-832a-6a9c8ab66ea6">
+            <TableID>dbo_DArticle</TableID>
+            <ColumnID>DesSousFamille</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d64fa6e9-c2e1-49be-9606-1fc924889070">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2aa01c5d-fa94-4ea8-a332-ff2a11a07646">
+          <TableID>dbo_DArticle</TableID>
+          <ColumnID>DesSousFamille</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9156b24f-92a5-4dca-b820-e57299ce3056">
+          <AttributeID>Des Famille</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Des Famille</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="35c802f5-2aa0-4cf5-a293-ff08901dc263">
+      <ID>Hiérarchie</ID>
+      <Name>H_Marque</Name>
+      <Levels>
+        <Level dwd:design-time-name="b72da2d8-094c-4742-95fb-df8ca2be2781">
+          <ID>Des Marque</ID>
+          <Name>Des Marque</Name>
+          <SourceAttributeID>Des Marque</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9d944ddf-9140-4f98-9a0f-51a3b74831ac">
+          <ID>Des Famille</ID>
+          <Name>Des Famille</Name>
+          <SourceAttributeID>Des Famille</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="bc96a52c-0853-4300-8784-c2090e6a8cd3">
+          <ID>Des Sous Famille</ID>
+          <Name>Des Sous Famille</Name>
+          <SourceAttributeID>Des Sous Famille</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b7e5189d-bd64-4718-9a73-729a305efae2">
+          <ID>Article Key</ID>
+          <Name>Article Key</Name>
+          <SourceAttributeID>Article Key</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="b880992d-521c-40ad-82f9-13db87ccef32">
+      <ID>Hiérarchie 1</ID>
+      <Name>H_Type</Name>
+      <Levels>
+        <Level dwd:design-time-name="ffd7a0fd-12e2-4ece-a409-0ec728b4ccd3">
+          <ID>Des Type</ID>
+          <Name>Des Type</Name>
+          <SourceAttributeID>Des Type</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="15247c56-a21d-4b4a-89e7-d1b219daefcc">
+          <ID>Article Key</ID>
+          <Name>Article Key</Name>
+          <SourceAttributeID>Article Key</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
