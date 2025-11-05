@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Data Target</Id>
+            <Name>Data Target</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzs7jhuEXd02N16F7WCvURwAAAAAYAAAARABhAHQAYQAgAFQAYQByAGcAZQB0AAAAEGYAAAABAAAgAAAARXKTn0N8Pt0f9jUPy9YKeuptdEOlI+DxGB+PLx3aBwoAAAAADoAAAAACAAAgAAAAsq0L9fMA/mx5MUR/7nm6t39/AtD59VK+ZkpslK7L1XkQAAAACV1N2eCMdc2wrvORGzzENUAAAABujFPslQQ4TtaYil632EqXMjhgG5QAHAzxiSgnP8xWD3zfaryxDx3g9kXuS2BYkFAs1TRPWzFW1Ox5Fc5xeYUi</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Data Target</Id>
+            <Name>Data Target</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzs7jhuEXd02N16F7WCvURwAAAAAYAAAARABhAHQAYQAgAFQAYQByAGcAZQB0AAAAEGYAAAABAAAgAAAAXVKJfIFT6OsGuaBy0JJEeF3Gaog4QvTr98s8Q3mq9qwAAAAADoAAAAACAAAgAAAA8PJkQ1cWPs4wqrfuDq+K32m9Vv7c+UrPxZvg9qdeu5cQAAAAbeQgS/jW/V7xCb6BM3vWQ0AAAAARmN8IRDrriCov96YHaGe+R1hBS+whSlbByORkJhFuIxYmgOiWNdxqzaMy3csaJul8wPA3WfgCmpCXt8qMfBam</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>DESKTOP-UNN634S\VE_SERVER</TargetServer>
+        <TargetDatabase>Data_Target</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

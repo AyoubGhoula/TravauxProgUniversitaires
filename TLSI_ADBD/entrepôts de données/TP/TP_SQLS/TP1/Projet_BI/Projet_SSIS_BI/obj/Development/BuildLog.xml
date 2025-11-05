@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>Projet_SSIS_BI</Name>
-    <LastWriteTime>2024-12-02T10:50:09.5837561Z</LastWriteTime>
+    <LastWriteTime>2024-12-13T22:12:15.5088463Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -18,12 +18,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>TraitementFait.dtsx</Name>
-      <LastWriteTime>2024-12-02T13:58:26.4637091Z</LastWriteTime>
+      <LastWriteTime>2024-12-13T22:14:02.7710278Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DeclencheurETL.dtsx</Name>
-      <LastWriteTime>2024-12-02T09:55:20.5781586Z</LastWriteTime>
+      <LastWriteTime>2024-12-13T22:45:13.852811Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
