@@ -1,0 +1,5 @@
+Bonjour
+Je m'appelle Ayoub
+Ceci est un fichier de test
+this is new line ^^ 
+Nous sommes le Wed Sep 24 23:54:54 WAT 2025
