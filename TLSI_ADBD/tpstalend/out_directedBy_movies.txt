@@ -1,0 +1,449 @@
+id_movie,title,genres,year,id_Director,Directed_By,LastName_Dir
+1,Toy Story,Adventure|Animation|Children|Comedy|Fantasy,1995,2,Janna,Rali
+2,Jumanji,Adventure|Children|Fantasy,1995,2,Janna,Rali
+3,Grumpier Old Men,Comedy|Romance,1994,1,Robert,Flexi
+4,Waiting to Exhale,Comedy|Drama|Romance,1995,6,Petit,Hamon
+5,Father of the Bride Part II,Empty,1994,7,Richard ,Mallet
+6,Heat,Action|Crime|Thriller,1995,9,Alias,Remy
+7,Sabrina,Comedy|Romance,1994,7,Richard ,Mallet
+8,Tom and Huck,Adventure|Children,1994,8,Jirar,Parrier
+9,Sudden Death,Action,1995,9,Alias,Remy
+10,GoldenEye,Action|Adventure|Thriller,1995,7,Richard ,Mallet
+11,American President  The,Comedy|Drama|Romance,1995,5,Thomas,Jagob
+12,Dracula: Dead and Loving It,Comedy|Horror,1995,7,Richard ,Mallet
+13,Balto,Adventure|Animation|Children,1995,10,Pop,Baron
+14,Nixon,Drama,1994,7,Richard ,Mallet
+15,Cutthroat Island,Action|Adventure|Romance,1994,1,Robert,Flexi
+16,Casino,Empty,1995,3,Francois,Tibou
+17,Sense and Sensibility,Drama|Romance,1995,7,Richard ,Mallet
+18,Four Rooms,Comedy,1994,4,Barnard ,Monnier
+19,Ace Ventura: When Nature Calls,Empty,1995,9,Alias,Remy
+20,Money Train,Action|Comedy|Crime|Drama|Thriller,1994,2,Janna,Rali
+21,Get Shorty,Comedy|Crime|Thriller,1994,5,Thomas,Jagob
+22,Copycat,Crime|Drama|Horror|Mystery|Thriller,1994,10,Pop,Baron
+23,Assassins,Action|Crime|Thriller,1995,10,Pop,Baron
+24,Powder,Drama|Sci-Fi,1994,8,Jirar,Parrier
+25,Leaving Las Vegas,Drama|Romance,1994,9,Alias,Remy
+26,Othello,Drama,1995,3,Francois,Tibou
+27,Now and Then,Children|Drama,1994,10,Pop,Baron
+28,Persuasion,Drama|Romance,1994,4,Barnard ,Monnier
+29,City of Lost Children The (Cit? des enfants perdus La),Adventure|Drama|Fantasy|Mystery|Sci-Fi,1995,7,Richard ,Mallet
+30,Shanghai Triad (Yao a yao yao dao waipo qiao),Crime|Drama,1994,3,Francois,Tibou
+31,Dangerous Minds,Drama,1994,2,Janna,Rali
+32,Twelve Monkeys (a.k.a. 12 Monkeys),Mystery|Sci-Fi|Thriller,1994,1,Robert,Flexi
+34,Babe,Children|Drama,1995,1,Robert,Flexi
+35,Carrington,Drama|Romance,1994,10,Pop,Baron
+36,Dead Man Walking,Crime|Drama,1994,3,Francois,Tibou
+37,Across the Sea of Time,Documentary|IMAX,1994,3,Francois,Tibou
+38,It Takes Two,Children|Comedy,1994,4,Barnard ,Monnier
+39,Clueless,Comedy|Romance,1995,5,Thomas,Jagob
+40,Cry  the Beloved Country,Drama,1994,4,Barnard ,Monnier
+41,Richard III,Drama|War,1994,1,Robert,Flexi
+42,Dead Presidents,Action|Crime|Drama,1995,8,Jirar,Parrier
+43,Restoration,Empty,1994,10,Pop,Baron
+44,Mortal Kombat,Action|Adventure|Fantasy,1995,4,Barnard ,Monnier
+45,To Die For,Comedy|Drama|Thriller,1995,4,Barnard ,Monnier
+46,How to Make an American Quilt,Drama|Romance,1994,8,Jirar,Parrier
+47,Seven (a.k.a. Se7en),Mystery|Thriller,1994,5,Thomas,Jagob
+48,Pocahontas,Animation|Children|Drama|Musical|Romance,1995,10,Pop,Baron
+49,When Night Is Falling,Drama|Romance,1994,10,Pop,Baron
+50,Usual Suspects  The,Crime|Mystery|Thriller,1994,1,Robert,Flexi
+52,Mighty Aphrodite,Comedy|Drama|Romance,1995,3,Francois,Tibou
+53,Lamerica,Adventure|Drama,1993,4,Barnard ,Monnier
+54,Big Green  The,Children|Comedy,1995,6,Petit,Hamon
+55,Georgia,Drama,1995,5,Thomas,Jagob
+57,Home for the Holidays,Drama,1995,8,Jirar,Parrier
+58,Postman  The (Postino  Il),Comedy|Drama|Romance,1993,8,Jirar,Parrier
+59,Confessional  The (Confessionnal  Le),Drama|Mystery,1995,9,Alias,Remy
+60,Indian in the Cupboard  The,Adventure|Children|Fantasy,1994,4,Barnard ,Monnier
+61,Eye for an Eye,Drama|Thriller,1995,1,Robert,Flexi
+62,Mr. Holland's Opus,Drama,1995,4,Barnard ,Monnier
+63,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,Comedy|Crime,1996,3,Francois,Tibou
+64,Two if by Sea,Comedy|Romance,1995,4,Barnard ,Monnier
+65,Bio-Dome,Comedy,1995,30,Vidal,Benard
+66,Lawnmower Man 2: Beyond Cyberspace,Action|Sci-Fi|Thriller,1995,4,Barnard ,Monnier
+68,French Twist (Gazon maudit),Comedy|Romance,1995,7,Richard ,Mallet
+69,Friday,Comedy,1994,3,Francois,Tibou
+70,From Dusk Till Dawn,Action|Comedy|Horror|Thriller,1995,3,Francois,Tibou
+71,Fair Game,Action,1994,10,Pop,Baron
+72,Kicking and Screaming,Comedy|Drama,1995,9,Alias,Remy
+73,Mis?rables  Les,Drama|War,1995,8,Jirar,Parrier
+74,Bed of Roses,Drama|Romance,1996,8,Jirar,Parrier
+76,Screamers,Action|Sci-Fi|Thriller,1994,7,Richard ,Mallet
+77,Nico Icon,Documentary,1995,2,Janna,Rali
+78,Crossing Guard  The,Action|Crime|Drama|Thriller,1994,6,Petit,Hamon
+79,Juror  The,Drama|Thriller,1996,5,Thomas,Jagob
+80,White Balloon  The (Badkonake sefid),Children|Drama,1995,10,Pop,Baron
+81,Things to Do in Denver When You're Dead,Crime|Drama|Romance,1994,4,Barnard ,Monnier
+82,Antonia's Line (Antonia),Comedy|Drama,1994,1,Robert,Flexi
+83,Once Upon a Time... When We Were Colored,Drama|Romance,1995,9,Alias,Remy
+84,Last Summer in the Hamptons,Comedy|Drama,1995,1,Robert,Flexi
+85,Angels and Insects,Drama|Romance,1995,9,Alias,Remy
+86,White Squall,Action|Adventure|Drama,1995,10,Pop,Baron
+87,Dunston Checks In,Children|Comedy,1995,8,Jirar,Parrier
+88,Black Sheep,Comedy,1995,8,Jirar,Parrier
+89,Nick of Time,Action|Thriller,1995,1,Robert,Flexi
+92,Mary Reilly,Drama|Horror|Thriller,1996,4,Barnard ,Monnier
+93,Vampire in Brooklyn,Comedy|Horror|Romance,1994,2,Janna,Rali
+94,Beautiful Girls,Comedy|Drama|Romance,1995,9,Alias,Remy
+95,Broken Arrow,Action|Adventure|Thriller,1995,7,Richard ,Mallet
+96,In the Bleak Midwinter,Comedy|Drama,1995,7,Richard ,Mallet
+97,Hate (Haine  La),Crime|Drama,1994,2,Janna,Rali
+98,Shopping,Action|Thriller,1994,10,Pop,Baron
+99,Heidi Fleiss: Hollywood Madam,Documentary,1995,6,Petit,Hamon
+100,City Hall,Drama|Thriller,1996,30,Vidal,Benard
+101,Bottle Rocket,Adventure|Comedy|Crime|Romance,1996,3,Francois,Tibou
+102,Mr. Wrong,Comedy,1996,24,Boyier,Perrier
+103,Unforgettable,Mystery|Sci-Fi|Thriller,1995,9,Alias,Remy
+104,Happy Gilmore,Comedy,1995,5,Thomas,Jagob
+105,Bridges of Madison County  The,Drama|Romance,1995,9,Alias,Remy
+107,Muppet Treasure Island,Adventure|Children|Comedy|Musical,1995,7,Richard ,Mallet
+108,Catwalk,Documentary,1995,1,Robert,Flexi
+110,Braveheart,Action|Drama|War,1995,5,Thomas,Jagob
+111,Taxi Driver,Crime|Drama|Thriller,1976,5,Thomas,Jagob
+112,Rumble in the Bronx (Hont faan kui),Action|Adventure|Comedy|Crime,1995,6,Petit,Hamon
+113,Before and After,Drama|Mystery,1995,4,Barnard ,Monnier
+114,Margaret's Museum,Drama,1995,1,Robert,Flexi
+116,Anne Frank Remembered,Documentary,1995,10,Pop,Baron
+117,Young Poisoner's Handbook  The,Crime|Drama,1994,3,Francois,Tibou
+118,If Lucy Fell,Comedy|Romance,1995,4,Barnard ,Monnier
+119,Steal Big  Steal Little,Comedy,1995,9,Alias,Remy
+121,Boys of St. Vincent  The,Drama,1992,10,Pop,Baron
+122,Boomerang,Comedy|Romance,1991,10,Pop,Baron
+123,Chungking Express (Chung Hing sam lam),Drama|Mystery|Romance,1993,5,Thomas,Jagob
+124,Star Maker  The (Uomo delle stelle  L'),Drama,1995,3,Francois,Tibou
+125,Flirting With Disaster,Comedy,1995,4,Barnard ,Monnier
+126,NeverEnding Story III  The,Adventure|Children|Fantasy,1994,10,Pop,Baron
+129,Pie in the Sky,Comedy|Romance,1995,6,Petit,Hamon
+130,Angela,Drama,1994,6,Petit,Hamon
+131,Frankie Starlight,Drama|Romance,1994,1,Robert,Flexi
+132,Jade,Thriller,1994,10,Pop,Baron
+135,Down Periscope,Comedy,1996,8,Jirar,Parrier
+137,Man of the Year,Documentary,1994,6,Petit,Hamon
+140,Up Close and Personal,Drama|Romance,1996,24,Boyier,Perrier
+141,Birdcage  The,Comedy,1996,4,Barnard ,Monnier
+144,Brothers McMullen  The,Comedy,1995,9,Alias,Remy
+145,Bad Boys,Action|Comedy|Crime|Drama|Thriller,1995,8,Jirar,Parrier
+146,Amazing Panda Adventure  The,Adventure|Children,1995,7,Richard ,Mallet
+147,Basketball Diaries  The,Drama,1995,4,Barnard ,Monnier
+148,Awfully Big Adventure  An,Drama,1994,7,Richard ,Mallet
+149,Amateur,Crime|Drama|Thriller,1994,5,Thomas,Jagob
+150,Apollo 13,Adventure|Drama|IMAX,1994,3,Francois,Tibou
+151,Rob Roy,Action|Drama|Romance|War,1994,6,Petit,Hamon
+152,Addiction  The,Drama|Horror,1994,6,Petit,Hamon
+153,Batman Forever,Action|Adventure|Comedy|Crime,1995,3,Francois,Tibou
+154,Beauty of the Day (Belle de jour),Drama,1967,5,Thomas,Jagob
+155,Beyond Rangoon,Adventure|Drama|War,1994,7,Richard ,Mallet
+156,Blue in the Face,Comedy|Drama,1994,3,Francois,Tibou
+157,Canadian Bacon,Empty,1994,9,Alias,Remy
+158,Casper,Adventure|Children,1994,2,Janna,Rali
+159,Clockers,Crime|Drama|Mystery,1994,2,Janna,Rali
+160,Congo,Action|Adventure|Mystery|Sci-Fi,1994,1,Robert,Flexi
+161,Crimson Tide,Drama|Thriller|War,1994,5,Thomas,Jagob
+162,Crumb,Documentary,1994,5,Thomas,Jagob
+163,Desperado,Action|Romance|Western,1995,7,Richard ,Mallet
+164,Devil in a Blue Dress,Crime|Film-Noir|Mystery|Thriller,1995,9,Alias,Remy
+165,Die Hard: With a Vengeance,Action|Crime|Thriller,1994,10,Pop,Baron
+166,Doom Generation  The,Comedy|Crime|Drama,1994,4,Barnard ,Monnier
+167,Feast of July,Drama,1995,9,Alias,Remy
+168,First Knight,Action|Drama|Romance,1994,5,Thomas,Jagob
+169,Free Willy 2: The Adventure Home,Adventure|Children|Drama,1995,5,Thomas,Jagob
+170,Hackers,Action|Adventure|Crime|Thriller,1994,2,Janna,Rali
+171,Jeffrey,Comedy|Drama,1995,4,Barnard ,Monnier
+172,Johnny Mnemonic,Action|Sci-Fi|Thriller,1995,1,Robert,Flexi
+173,Judge Dredd,Action|Crime|Sci-Fi,1995,10,Pop,Baron
+174,Jury Duty,Comedy,1995,6,Petit,Hamon
+175,Kids,Drama,1994,2,Janna,Rali
+176,Living in Oblivion,Comedy,1995,4,Barnard ,Monnier
+177,Lord of Illusions,Horror,1994,1,Robert,Flexi
+178,Love & Human Remains,Comedy|Drama,1993,3,Francois,Tibou
+179,Mad Love,Drama|Romance,1995,7,Richard ,Mallet
+180,Mallrats,Comedy|Romance,1995,6,Petit,Hamon
+181,Mighty Morphin Power Rangers: The Movie,Action|Children,1994,7,Richard ,Mallet
+183,Mute Witness,Comedy|Horror|Thriller,1994,5,Thomas,Jagob
+184,Nadja,Drama,1994,9,Alias,Remy
+185,Net  The,Action|Crime|Thriller,1995,10,Pop,Baron
+186,Nine Months,Comedy|Romance,1994,2,Janna,Rali
+187,Party Girl,Comedy,1994,10,Pop,Baron
+188,Prophecy  The,Fantasy|Horror|Mystery,1994,9,Alias,Remy
+189,Reckless,Comedy|Fantasy,1995,4,Barnard ,Monnier
+190,Safe,Thriller,1995,9,Alias,Remy
+191,Scarlet Letter  The,Drama|Romance,1994,5,Thomas,Jagob
+193,Showgirls,Drama,1995,1,Robert,Flexi
+194,Smoke,Comedy|Drama,1995,4,Barnard ,Monnier
+195,Something to Talk About,Comedy|Drama|Romance,1995,2,Janna,Rali
+196,Species,Horror|Sci-Fi,1995,5,Thomas,Jagob
+198,Strange Days,Action|Crime|Drama|Mystery|Sci-Fi|Thriller,1994,2,Janna,Rali
+199,Umbrellas of Cherbourg  The (Parapluies de Cherbourg  Les),Drama|Musical|Romance,1963,10,Pop,Baron
+200,Tie That Binds  The,Thriller,1995,8,Jirar,Parrier
+201,Three Wishes,Drama|Fantasy,1994,1,Robert,Flexi
+202,Total Eclipse,Drama|Romance,1994,7,Richard ,Mallet
+203,To Wong Foo  Thanks for Everything! Julie Newmar,Comedy,1994,9,Alias,Remy
+204,Under Siege 2: Dark Territory,Action,1994,6,Petit,Hamon
+205,Unstrung Heroes,Comedy|Drama,1994,1,Robert,Flexi
+206,Unzipped,Documentary,1995,1,Robert,Flexi
+207,Walk in the Clouds  A,Drama|Romance,1994,10,Pop,Baron
+208,Waterworld,Action|Adventure|Sci-Fi,1994,7,Richard ,Mallet
+209,White Man's Burden,Drama,1994,6,Petit,Hamon
+211,Browning Version  The,Drama,1993,7,Richard ,Mallet
+213,Burnt by the Sun (Utomlyonnye solntsem),Drama,1994,1,Robert,Flexi
+214,Before the Rain (Pred dozhdot),Drama|War,1993,7,Richard ,Mallet
+215,Before Sunrise,Drama|Romance,1995,6,Petit,Hamon
+216,Billy Madison,Comedy,1995,10,Pop,Baron
+217,Babysitter  The,Drama|Thriller,1995,10,Pop,Baron
+218,Boys on the Side,Comedy|Drama,1995,6,Petit,Hamon
+219,Cure  The,Drama,1994,4,Barnard ,Monnier
+220,Castle Freak,Horror,1994,5,Thomas,Jagob
+222,Circle of Friends,Drama|Romance,1995,2,Janna,Rali
+223,Clerks,Comedy,1993,9,Alias,Remy
+224,Don Juan DeMarco,Comedy|Drama|Romance,1994,8,Jirar,Parrier
+225,Disclosure,Drama|Thriller,1993,3,Francois,Tibou
+227,Drop Zone,Action|Thriller,1993,8,Jirar,Parrier
+228,Destiny Turns on the Radio,Comedy,1995,2,Janna,Rali
+229,Death and the Maiden,Drama|Thriller,1993,2,Janna,Rali
+230,Dolores Claiborne,Drama|Thriller,1994,7,Richard ,Mallet
+231,Dumb & Dumber (Dumb and Dumber),Adventure|Comedy,1994,5,Thomas,Jagob
+232,Eat Drink Man Woman (Yin shi nan nu),Comedy|Drama|Romance,1994,7,Richard ,Mallet
+233,Exotica,Drama,1993,2,Janna,Rali
+234,Exit to Eden,Comedy,1993,5,Thomas,Jagob
+235,Ed Wood,Comedy|Drama,1993,3,Francois,Tibou
+236,French Kiss,Action|Comedy|Romance,1994,7,Richard ,Mallet
+237,Forget Paris,Comedy|Romance,1995,7,Richard ,Mallet
+238,Far From Home: The Adventures of Yellow Dog,Adventure|Children,1994,2,Janna,Rali
+239,Goofy Movie  A,Animation|Children|Comedy|Romance,1995,8,Jirar,Parrier
+240,Hideaway,Thriller,1995,6,Petit,Hamon
+241,Fluke,Children|Drama,1994,2,Janna,Rali
+242,Farinelli: il castrato,Drama|Musical,1993,5,Thomas,Jagob
+243,Gordy,Children|Comedy|Fantasy,1995,4,Barnard ,Monnier
+244,Gumby: The Movie,Animation|Children,1995,5,Thomas,Jagob
+245,The Glass Shield,Crime|Drama,1994,8,Jirar,Parrier
+246,Hoop Dreams,Documentary,1994,9,Alias,Remy
+247,Heavenly Creatures,Crime|Drama,1993,2,Janna,Rali
+248,Houseguest,Comedy,1994,7,Richard ,Mallet
+249,Immortal Beloved,Drama|Romance,1993,8,Jirar,Parrier
+250,Heavyweights (Heavy Weights),Children|Comedy,1995,6,Petit,Hamon
+251,Hunted  The,Action,1995,3,Francois,Tibou
+252,I.Q.,Comedy|Romance,1994,6,Petit,Hamon
+253,Interview with the Vampire: The Vampire Chronicles,Drama|Horror,1994,3,Francois,Tibou
+254,Jefferson in Paris,Drama,1994,7,Richard ,Mallet
+255,Jerky Boys  The,Comedy,1995,2,Janna,Rali
+256,Junior,Empty,1994,5,Thomas,Jagob
+257,Just Cause,Mystery|Thriller,1995,6,Petit,Hamon
+258,Kid in King Arthur's Court  A,Adventure|Children|Comedy|Fantasy|Romance,1994,8,Jirar,Parrier
+259,Kiss of Death,Crime|Drama|Thriller,1995,2,Janna,Rali
+260,Star Wars: Episode IV - A New Hope,Action|Adventure|Sci-Fi,1977,1,Robert,Flexi
+261,Little Women,Drama,1993,7,Richard ,Mallet
+262,Little Princess  A,Children|Drama,1994,1,Robert,Flexi
+263,Ladybird Ladybird,Drama,1994,5,Thomas,Jagob
+264,Enfer  L',Drama,1993,5,Thomas,Jagob
+265,Like Water for Chocolate (Como agua para chocolate),Drama|Fantasy|Romance,1992,10,Pop,Baron
+266,Legends of the Fall,Drama|Romance|War|Western,1994,5,Thomas,Jagob
+267,Major Payne,Comedy,1994,2,Janna,Rali
+268,Little Odessa,Crime|Drama,1993,10,Pop,Baron
+269,My Crazy Life (Mi vida loca),Drama,1992,3,Francois,Tibou
+270,Love Affair,Drama|Romance,1993,1,Robert,Flexi
+271,Losing Isaiah,Drama,1994,6,Petit,Hamon
+272,Madness of King George  The,Comedy|Drama,1993,10,Pop,Baron
+273,Mary Shelley's Frankenstein (Frankenstein),Drama|Horror|Sci-Fi,1993,2,Janna,Rali
+274,Man of the House,Comedy,1994,10,Pop,Baron
+275,Mixed Nuts,Comedy,1994,4,Barnard ,Monnier
+276,Milk Money,Comedy|Romance,1994,9,Alias,Remy
+277,Miracle on 34th Street,Drama,1993,9,Alias,Remy
+278,Miami Rhapsody,Comedy,1995,10,Pop,Baron
+279,My Family,Drama,1994,10,Pop,Baron
+280,Murder in the First,Drama|Thriller,1994,9,Alias,Remy
+281,Nobody's Fool,Comedy|Drama|Romance,1994,5,Thomas,Jagob
+282,Nell,Drama,1994,8,Jirar,Parrier
+283,New Jersey Drive,Crime|Drama,1995,6,Petit,Hamon
+285,Beyond Bedlam,Drama|Horror,1992,1,Robert,Flexi
+287,Nina Takes a Lover,Comedy|Romance,1993,8,Jirar,Parrier
+288,Natural Born Killers,Action|Crime|Thriller,1994,7,Richard ,Mallet
+289,Only You,Comedy|Romance,1994,4,Barnard ,Monnier
+290,Once Were Warriors,Crime|Drama,1994,4,Barnard ,Monnier
+291,Poison Ivy II,Drama|Thriller,1995,3,Francois,Tibou
+292,Outbreak,Action|Drama|Sci-Fi|Thriller,1995,5,Thomas,Jagob
+293,L?on: The Professional (a.k.a. The Professional) (L?on),Action|Crime|Drama|Thriller,1994,4,Barnard ,Monnier
+294,Perez Family  The,Comedy|Romance,1995,9,Alias,Remy
+295,Pyromaniac's Love Story  A,Comedy|Romance,1994,8,Jirar,Parrier
+296,Pulp Fiction,Comedy|Crime|Drama|Thriller,1994,4,Barnard ,Monnier
+299,Priest,Drama,1994,1,Robert,Flexi
+300,Quiz Show,Drama,1993,6,Petit,Hamon
+301,Picture Bride (Bijo photo),Drama|Romance,1993,8,Jirar,Parrier
+302,Queen Margot (Reine Margot  La),Drama|Romance,1993,4,Barnard ,Monnier
+303,Quick and the Dead  The,Action|Thriller|Western,1994,5,Thomas,Jagob
+304,Roommates,Comedy|Drama,1994,5,Thomas,Jagob
+305,Ready to Wear (Pret-A-Porter),Comedy,1994,10,Pop,Baron
+306,Three Colors: Red (Trois couleurs: Rouge),Drama,1993,3,Francois,Tibou
+307,Three Colors: Blue (Trois couleurs: Bleu),Drama,1993,4,Barnard ,Monnier
+308,Three Colors: White (Trzy kolory: Bialy),Comedy|Drama,1993,6,Petit,Hamon
+309,Red Firecracker  Green Firecracker (Pao Da Shuang Deng),Drama,1993,5,Thomas,Jagob
+312,Stuart Saves His Family,Comedy,1994,1,Robert,Flexi
+313,Swan Princess  The,Animation|Children,1994,7,Richard ,Mallet
+314,Secret of Roan Inish  The,Children|Drama|Fantasy|Mystery,1994,4,Barnard ,Monnier
+315,Specialist  The,Action|Drama|Thriller,1994,3,Francois,Tibou
+316,Stargate,Action|Adventure|Sci-Fi,1994,6,Petit,Hamon
+317,Santa Clause  The,Comedy|Drama|Fantasy,1994,5,Thomas,Jagob
+318,Shawshank Redemption  The,Crime|Drama,1994,1,Robert,Flexi
+319,Shallow Grave,Comedy|Drama|Thriller,1994,3,Francois,Tibou
+320,Suture,Film-Noir|Thriller,1993,10,Pop,Baron
+321,Strawberry and Chocolate (Fresa y chocolate),Drama,1992,5,Thomas,Jagob
+322,Swimming with Sharks,Comedy|Drama,1994,9,Alias,Remy
+324,Sum of Us  The,Comedy|Drama,1993,9,Alias,Remy
+325,National Lampoon's Senior Trip,Comedy,1995,10,Pop,Baron
+326,To Live (Huozhe),Drama,1993,3,Francois,Tibou
+327,Tank Girl,Action|Comedy|Sci-Fi,1994,4,Barnard ,Monnier
+328,Tales from the Crypt Presents: Demon Knight,Horror|Thriller,1994,2,Janna,Rali
+329,Star Trek: Generations,Adventure|Drama|Sci-Fi,1994,5,Thomas,Jagob
+330,Tales from the Hood,Action|Crime|Horror,1994,3,Francois,Tibou
+331,Tom & Viv,Drama,1994,8,Jirar,Parrier
+332,Village of the Damned,Horror|Sci-Fi,1994,8,Jirar,Parrier
+333,Tommy Boy,Comedy,1994,6,Petit,Hamon
+334,Vanya on 42nd Street,Drama,1994,3,Francois,Tibou
+335,Underneath,Mystery|Thriller,1995,5,Thomas,Jagob
+336,Walking Dead  The,Drama|War,1995,6,Petit,Hamon
+337,What's Eating Gilbert Grape,Drama,1992,1,Robert,Flexi
+338,Virtuosity,Action|Sci-Fi|Thriller,1995,4,Barnard ,Monnier
+339,While You Were Sleeping,Comedy|Romance,1994,2,Janna,Rali
+340,War  The,Adventure|Drama|War,1993,2,Janna,Rali
+341,Double Happiness,Drama,1994,10,Pop,Baron
+342,Muriel's Wedding,Comedy,1993,10,Pop,Baron
+343,Baby-Sitters Club  The,Children,1995,9,Alias,Remy
+344,Ace Ventura: Pet Detective,Comedy,1994,5,Thomas,Jagob
+345,Adventures of Priscilla  Queen of the Desert  The,Comedy|Drama,1994,2,Janna,Rali
+346,Backbeat,Drama|Musical,1993,7,Richard ,Mallet
+347,Bitter Moon,Drama|Film-Noir|Romance,1991,2,Janna,Rali
+348,Bullets Over Broadway,Comedy,1993,6,Petit,Hamon
+349,Clear and Present Danger,Action|Crime|Drama|Thriller,1993,1,Robert,Flexi
+350,Client  The,Drama|Mystery|Thriller,1993,6,Petit,Hamon
+351,Corrina  Corrina,Comedy|Drama|Romance,1993,2,Janna,Rali
+352,Crooklyn,Comedy|Drama,1994,3,Francois,Tibou
+353,Crow  The,Action|Crime|Fantasy|Thriller,1994,10,Pop,Baron
+354,Cobb,Drama,1993,10,Pop,Baron
+355,Flintstones  The,Children|Comedy|Fantasy,1993,1,Robert,Flexi
+356,Forrest Gump,Comedy|Drama|Romance|War,1993,8,Jirar,Parrier
+357,Four Weddings and a Funeral,Comedy|Romance,1994,8,Jirar,Parrier
+358,Higher Learning,Drama,1994,1,Robert,Flexi
+360,I Love Trouble,Action|Comedy,1993,1,Robert,Flexi
+361,It Could Happen to You,Comedy|Drama|Romance,1994,7,Richard ,Mallet
+362,Jungle Book  The,Adventure|Children|Romance,1993,4,Barnard ,Monnier
+363,Wonderful  Horrible Life of Leni Riefenstahl  The (Macht der Bilder: Leni Riefenstahl  Die),Documentary,1992,7,Richard ,Mallet
+364,Lion King  The,Adventure|Animation|Children|Drama|Musical|IMAX,1994,5,Thomas,Jagob
+365,Little Buddha,Drama,1992,2,Janna,Rali
+366,Wes Craven's New Nightmare (Nightmare on Elm Street Part 7: Freddy's Finale  A),Drama|Horror|Mystery|Thriller,1993,6,Petit,Hamon
+367,Mask  The,Action|Comedy|Crime|Fantasy,1993,5,Thomas,Jagob
+368,Maverick,Adventure|Comedy|Western,1993,1,Robert,Flexi
+369,Mrs. Parker and the Vicious Circle,Drama,1994,10,Pop,Baron
+370,Naked Gun 33 1/3: The Final Insult,Action|Comedy,1993,7,Richard ,Mallet
+371,Paper  The,Comedy|Drama,1994,1,Robert,Flexi
+372,Reality Bites,Comedy|Drama|Romance,1994,10,Pop,Baron
+373,Red Rock West,Thriller,1992,2,Janna,Rali
+374,Richie Rich,Children|Comedy,1993,6,Petit,Hamon
+375,Safe Passage,Drama,1994,1,Robert,Flexi
+376,River Wild  The,Action|Thriller,1994,3,Francois,Tibou
+377,Speed,Action|Romance|Thriller,1994,4,Barnard ,Monnier
+378,Speechless,Comedy|Romance,1994,9,Alias,Remy
+379,Timecop,Action|Sci-Fi|Thriller,1993,7,Richard ,Mallet
+380,True Lies,Action|Adventure|Comedy|Romance|Thriller,1994,5,Thomas,Jagob
+381,When a Man Loves a Woman,Drama|Romance,1993,5,Thomas,Jagob
+382,Wolf,Drama|Horror|Romance|Thriller,1994,10,Pop,Baron
+383,Wyatt Earp,Western,1993,8,Jirar,Parrier
+384,Bad Company,Action|Crime|Drama,1994,7,Richard ,Mallet
+387,Low Down Dirty Shame  A,Action|Comedy,1993,5,Thomas,Jagob
+388,Boys Life,Drama,1995,2,Janna,Rali
+389,Colonel Chabert  Le,Drama|Romance|War,1994,7,Richard ,Mallet
+390,Faster Pussycat! Kill! Kill!,Action|Crime|Drama,1964,7,Richard ,Mallet
+391,Jason's Lyric,Crime|Drama,1994,5,Thomas,Jagob
+392,Secret Adventures of Tom Thumb  The,Adventure|Animation,1992,4,Barnard ,Monnier
+393,Street Fighter,Action|Adventure|Fantasy,1993,2,Janna,Rali
+401,Mirage,Action|Thriller,1994,2,Janna,Rali
+405,Highlander III: The Sorcerer (a.k.a. Highlander: The Final Dimension),Action|Fantasy,1993,5,Thomas,Jagob
+407,In the Mouth of Madness,Horror|Thriller,1994,3,Francois,Tibou
+408,8 Seconds,Drama,1994,8,Jirar,Parrier
+409,Above the Rim,Crime|Drama,1994,6,Petit,Hamon
+410,Addams Family Values,Children|Comedy|Fantasy,1993,10,Pop,Baron
+412,Age of Innocence  The,Drama,1992,1,Robert,Flexi
+413,Airheads,Comedy,1993,6,Petit,Hamon
+414,Air Up There  The,Comedy,1994,7,Richard ,Mallet
+415,Another Stakeout,Comedy|Thriller,1993,5,Thomas,Jagob
+416,Bad Girls,Western,1994,10,Pop,Baron
+417,Barcelona,Comedy|Romance,1994,6,Petit,Hamon
+418,Being Human,Drama,1993,7,Richard ,Mallet
+419,Beverly Hillbillies  The,Comedy,1993,9,Alias,Remy
+420,Beverly Hills Cop III,Action|Comedy|Crime|Thriller,1993,10,Pop,Baron
+421,Black Beauty,Adventure|Children|Drama,1994,6,Petit,Hamon
+422,Blink,Thriller,1993,5,Thomas,Jagob
+423,Blown Away,Action|Thriller,1994,2,Janna,Rali
+424,Blue Chips,Drama,1993,3,Francois,Tibou
+425,Blue Sky,Drama|Romance,1993,8,Jirar,Parrier
+426,Body Snatchers,Horror|Sci-Fi|Thriller,1993,6,Petit,Hamon
+427,Boxing Helena,Drama|Mystery|Romance|Thriller,1993,1,Robert,Flexi
+428,Bronx Tale  A,Drama,1992,6,Petit,Hamon
+429,Cabin Boy,Comedy,1993,3,Francois,Tibou
+431,Carlito's Way,Crime|Drama,1992,6,Petit,Hamon
+432,City Slickers II: The Legend of Curly's Gold,Adventure|Comedy|Western,1993,2,Janna,Rali
+433,Clean Slate,Comedy,1993,6,Petit,Hamon
+434,Cliffhanger,Action|Adventure|Thriller,1992,7,Richard ,Mallet
+435,Coneheads,Comedy|Sci-Fi,1992,3,Francois,Tibou
+436,Color of Night,Drama|Thriller,1994,4,Barnard ,Monnier
+437,Cops and Robbersons,Comedy,1993,3,Francois,Tibou
+438,Cowboy Way  The,Action|Comedy|Drama,1994,8,Jirar,Parrier
+439,Dangerous Game,Drama,1993,6,Petit,Hamon
+440,Dave,Comedy|Romance,1993,3,Francois,Tibou
+441,Dazed and Confused,Comedy,1992,4,Barnard ,Monnier
+442,Demolition Man,Action|Adventure|Sci-Fi,1993,3,Francois,Tibou
+443,Endless Summer 2  The,Adventure|Documentary,1994,3,Francois,Tibou
+444,Even Cowgirls Get the Blues,Comedy|Romance,1993,8,Jirar,Parrier
+445,Fatal Instinct,Comedy,1993,5,Thomas,Jagob
+446,Farewell My Concubine (Ba wang bie ji),Drama|Romance,1993,10,Pop,Baron
+447,Favor  The,Comedy|Romance,1994,1,Robert,Flexi
+448,Fearless,Drama,1993,9,Alias,Remy
+449,Fear of a Black Hat,Comedy,1993,9,Alias,Remy
+450,With Honors,Comedy|Drama,1993,4,Barnard ,Monnier
+451,Flesh and Bone,Drama|Mystery|Romance,1992,6,Petit,Hamon
+452,Widows' Peak,Drama,1994,6,Petit,Hamon
+453,For Love or Money,Comedy|Romance,1992,2,Janna,Rali
+454,Firm  The,Drama|Thriller,1992,6,Petit,Hamon
+455,Free Willy,Adventure|Children|Drama,1993,5,Thomas,Jagob
+456,Fresh,Crime|Drama|Thriller,1993,4,Barnard ,Monnier
+457,Fugitive  The,Thriller,1993,5,Thomas,Jagob
+458,Geronimo: An American Legend,Drama|Western,1993,1,Robert,Flexi
+459,Getaway  The,Action|Adventure|Crime|Drama|Romance|Thriller,1993,2,Janna,Rali
+460,Getting Even with Dad,Comedy,1993,4,Barnard ,Monnier
+461,Go Fish,Drama|Romance,1993,1,Robert,Flexi
+463,Guilty as Sin,Crime|Drama|Thriller,1993,1,Robert,Flexi
+464,Hard Target,Action|Adventure|Crime|Thriller,1993,3,Francois,Tibou
+465,Heaven & Earth,Action|Drama|War,1992,6,Petit,Hamon
+466,Hot Shots! Part Deux,Action|Comedy|War,1993,7,Richard ,Mallet
+467,Live Nude Girls,Comedy,1994,6,Petit,Hamon
+468,Englishman Who Went Up a Hill But Came Down a Mountain  The,Comedy|Romance,1994,4,Barnard ,Monnier
+469,House of the Spirits  The,Drama|Romance,1993,8,Jirar,Parrier
+470,House Party 3,Comedy,1993,10,Pop,Baron
+471,Hudsucker Proxy  The,Comedy,1994,5,Thomas,Jagob
+472,I'll Do Anything,Comedy|Drama,1994,7,Richard ,Mallet
+473,In the Army Now,Comedy|War,1994,4,Barnard ,Monnier
+474,In the Line of Fire,Action|Thriller,1992,9,Alias,Remy
+475,In the Name of the Father,Drama,1992,2,Janna,Rali
+476,Inkwell  The,Comedy|Drama,1993,6,Petit,Hamon
+477,What's Love Got to Do with It?,Drama|Musical,1993,3,Francois,Tibou
+479,Judgment Night,Action|Crime|Thriller,1993,7,Richard ,Mallet
+480,Jurassic Park,Action|Adventure|Sci-Fi|Thriller,1993,8,Jirar,Parrier
+481,Kalifornia,Drama|Thriller,1993,2,Janna,Rali
+482,Killing Zoe,Crime|Drama|Thriller,1994,2,Janna,Rali
+483,King of the Hill,Drama,1993,3,Francois,Tibou
+484,Lassie,Adventure|Children,1993,2,Janna,Rali
+485,Last Action Hero,Action|Adventure|Comedy|Fantasy,1993,4,Barnard ,Monnier
+486,Life with Mikey,Comedy,1992,9,Alias,Remy
+487,Lightning Jack,Comedy|Western,1993,9,Alias,Remy
+488,M. Butterfly,Drama|Romance,1992,8,Jirar,Parrier
+489,Made in America,Comedy,1993,10,Pop,Baron
+490,Malice,Thriller,1992,10,Pop,Baron
+491,Man Without a Face  The,Drama,1993,8,Jirar,Parrier
+492,Manhattan Murder Mystery,Comedy|Mystery,1992,6,Petit,Hamon
+493,Menace II Society,Action|Crime|Drama,1993,1,Robert,Flexi
+494,Executive Decision,Action|Adventure|Thriller,1995,5,Thomas,Jagob
+495,In the Realm of the Senses (Ai no corrida),Drama,1976,8,Jirar,Parrier
+496,What Happened Was...,Comedy|Drama|Romance|Thriller,1994,6,Petit,Hamon
+497,Much Ado About Nothing,Comedy|Romance,1993,5,Thomas,Jagob
+498,Mr. Jones,Drama|Romance,1992,3,Francois,Tibou
+499,Mr. Wonderful,Comedy|Romance,1993,5,Thomas,Jagob
+500,Mrs. Doubtfire,Comedy|Drama,1993,7,Richard ,Mallet

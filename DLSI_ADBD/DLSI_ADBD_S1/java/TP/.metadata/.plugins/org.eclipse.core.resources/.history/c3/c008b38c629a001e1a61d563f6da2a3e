@@ -1,5 +1,0 @@
-package TD5;
-
-public abstract class Participant extends Universitaire {
-
-}

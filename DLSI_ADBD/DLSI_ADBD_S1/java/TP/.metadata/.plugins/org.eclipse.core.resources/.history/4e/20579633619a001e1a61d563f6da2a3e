@@ -1,8 +1,0 @@
-package TD5;
-
-public  class Universitaire extends Participant{
-	String spécialité ;
-	public String toString() {
-		return "spécialité :"+spécialité;
-	}
-}
