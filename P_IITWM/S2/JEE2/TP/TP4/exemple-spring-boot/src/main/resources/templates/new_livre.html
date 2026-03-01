@@ -1,0 +1,32 @@
+<!-- new_livre.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Ajouter un Livre</title>
+</head>
+<body>
+<h2>Ajouter un Livre</h2>
+<form th:action="@{/livres/save}" th:object="${livre}" method="post">
+    <label for="titre">Titre:</label>
+    <input type="text" th:field="*{titre}" id="titre"/><br/>
+
+    <label for="isbn">ISBN:</label>
+    <input type="text" th:field="*{isbn}" id="isbn"/><br/>
+
+    <label for="nombrePages">Nombre de Pages:</label>
+    <input type="number" th:field="*{nombrePages}" id="nombrePages"/><br/>
+
+    <label for="auteur">Auteur:</label>
+    <select th:field="*{auteur}" id="auteur">
+        <option th:each="auteur : ${auteurs}" th:value="${auteur.id}" th:text="${auteur.nom}"></option>
+    </select><br/>
+
+    <label for="categorie">Catégorie:</label>
+    <select th:field="*{categorie}" id="categorie">
+        <option th:each="categorie : ${categories}" th:value="${categorie.id}" th:text="${categorie.nom}"></option>
+    </select><br/>
+
+    <input type="submit" value="Sauvegarder"/>
+</form>
+</body>
+</html>

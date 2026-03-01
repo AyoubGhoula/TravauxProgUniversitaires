@@ -1,0 +1,13 @@
+<div>
+<h1>Question de l'enseignant</h1>
+{{question}}
+<br>
+
+
+<app-etudiant [questionEnseigant]="question" (responseEvent)="recevoir($event)"></app-etudiant>
+
+<br>
+
+Resultat : {{result}}
+
+</div>

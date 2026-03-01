@@ -1,0 +1,63 @@
+
+
+<div class="mb-6">
+  <input
+    [(ngModel)]="searchTerm"
+    placeholder="Rechercher un projet..."
+    class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 shadow-sm placeholder:text-slate-400 focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-200 transition"
+  />
+</div>
+
+
+@if (filteredProjects.length === 0) {
+  <div class="rounded-xl border border-amber-200 bg-amber-50 p-6 text-center">
+    <p class="text-sm font-medium text-amber-700">Aucun projet trouvé</p>
+  </div>
+} @else {
+<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 my-7">
+  @for (project of filteredProjects; track project.name) {
+  <article class="flex h-full flex-col rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-200/60 transition hover:-translate-y-1 hover:shadow-lg">
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <h3 class="text-xl font-semibold text-slate-900">{{ project.name }}</h3>
+        <p class="mt-1 text-sm text-slate-600">{{ project.description }}</p>
+      </div>
+      <span
+        class="shrink-0 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide"
+        [ngClass]="{
+          'bg-green-100 text-green-700': project.status === 'Terminé',
+          'bg-cyan-100 text-cyan-700': project.status === 'En cours',
+          'bg-amber-100 text-amber-700': project.status === 'En attente'
+        }"
+      >
+        {{ project.status }}
+      </span>
+    </div>
+    <div class="mt-auto pt-4">
+      <button
+        (click)="selectProject(project)"
+        class="w-full rounded-lg bg-cyan-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-300 cursor-pointer"
+      >
+        Voir détails
+      </button>
+    </div>
+  </article>
+  }
+</div>
+}
+
+
+@if (selectedProject) {
+  <div class="mt-8">
+    <div class="mb-4 flex items-center justify-between">
+      <h2 class="text-xl font-bold text-slate-900">Détails du projet</h2>
+      <button
+        (click)="selectedProject = null"
+        class="rounded-lg bg-slate-200 px-3 py-1.5 text-sm font-medium text-slate-700 transition hover:bg-slate-300 cursor-pointer"
+      >
+        Fermer
+      </button>
+    </div>
+    <app-project-detail [project]="selectedProject"></app-project-detail>
+  </div>
+}

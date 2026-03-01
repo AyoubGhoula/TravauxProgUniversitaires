@@ -1,0 +1,16 @@
+<!-- new_categorie.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Ajouter une Catégorie</title>
+</head>
+<body>
+<h2>Ajouter une Catégorie</h2>
+<form th:action="@{/categories/save}" th:object="${categorie}" method="post">
+    <label for="nom">Nom:</label>
+    <input type="text" th:field="*{nom}" id="nom"/><br/>
+
+    <input type="submit" value="Sauvegarder"/>
+</form>
+</body>
+</html>
